@@ -316,7 +316,7 @@ footer .colophon .phi{color:var(--gold)}
     <div class="band-head">
       <span class="eyebrow">Architektura · 12 komnat</span>
       <h2>Atlas Złotej Liczby</h2>
-      <p class="lead">Cały korpus Ghyki, rozpisany na dwanaście interaktywnych komnat. Każda kończy się <b>werdyktem</b> — rygor, mieszany czy romantyzm. Kliknij kartę: <span style="color:var(--verd)">siedem komnat</span> jest już grywalnych, reszta czeka jako plan.</p>
+      <p class="lead">Cały korpus Ghyki, rozpisany na dwanaście interaktywnych komnat. Każda kończy się <b>werdyktem</b> — rygor, mieszany czy romantyzm. Kliknij kartę — <span style="color:var(--verd)">wszystkie dwanaście komnat</span> jest już grywalnych.</p>
     </div>
     <div class="atlas" id="atlasGrid"><!-- cards injected --></div>
   </div>
@@ -429,7 +429,7 @@ footer .colophon .phi{color:var(--gold)}
       </div>
     </div>
     <div class="colophon">
-      <span>Prototyp flagowy · komnata „Ogród” w pełni grywalna · pozostałe 8 jako plan</span>
+      <span>Atlas kompletny · dwanaście grywalnych komnat · od rygoru po romantyzm</span>
       <span><span class="phi">Φ</span> &nbsp;1,618033988749895…</span>
     </div>
   </div>
@@ -508,30 +508,34 @@ const CHAMBERS=[
  {n:"V",t:"Ciało",tag:"Proporcja w ciele i sztuce",verdict:"rom",
   card:"Człowiek Witruwiański, kanon Zeisinga, Modulor. Tu Ghyka najczęściej się myli.",
   idea:"Marzenie o jednej proporcji rządzącej ciałem jest stare i piękne — i właśnie dlatego niebezpieczne. Łatwo zobaczyć φ tam, gdzie go nie ma.",
-  doo:"Plan: gra „prawda czy apofenia?” — nakładasz siatki φ na figurę i sam dobierasz punkty; wychodzi φ, √2 albo nic.",
+  doo:"Grywalne: przeciągasz linię pomiarową po figurze (pępek ≈ 0,61–0,63, nie dokładnie φ), włączasz kwadrat i koło Witruwiusza, oglądasz φ-serię Modulora.",
   math:"Zeising (1854); Modulor (φ + Fibonacci). Krytyka: Markowsky (1992).",
-  vk:"rom",vt:"Serce romantycznej numerologii. Komnata uczy zachwyt sprawdzać."},
+  vk:"rom",vt:"Serce romantycznej numerologii. Komnata uczy zachwyt sprawdzać.",
+  room:true,href:"cialo.html"},
 
  {n:"VI",t:"Świątynia",tag:"Architektura · dynamiczna symetria",verdict:"mix",
   card:"Partenon, Notre-Dame, prostokąty dynamiczne Hambidge'a (√2…√5, φ).",
   idea:"Czy Grecy projektowali wedle φ? Pomiary bywają dobierane tak długo, aż liczba się zgodzi.",
-  doo:"Plan: nakładasz dynamiczne prostokąty na fasady i sam mierzysz — i widzisz, jak wynik zależy od wyboru krawędzi.",
+  doo:"Grywalne 3D: obracasz fasadę świątyni doryckiej i nakładasz prostokąt φ (mit, który nie pasuje), prostokąty pierwiastkowe Hambidge'a (√2·√3·√5) oraz współmierną siatkę 9:4.",
   math:"Stosunki √2, √3, √5, φ. Hambidge (1920); krytyka Neveux/Markowsky.",
-  vk:"mix",vt:"Geometria prostokątów realna; „dynamiczna symetria” jako metoda — naciągana."},
+  vk:"mix",vt:"Geometria prostokątów realna; „dynamiczna symetria” jako metoda — naciągana.",
+  room:true,href:"swiatynia.html"},
 
  {n:"VII",t:"Eurytmia",tag:"Proporcja w malarstwie",verdict:"rom",
   card:"Złota proporcja w malarstwie i rzeźbie: Botticelli, Leonardo, Dürer.",
   idea:"Eurytmia — „dobry rytm” — to marzenie o φ jako tajnym kluczu kompozycji. Częściej to my dorysowujemy φ niż artysta.",
-  doo:"Plan: nakładasz siatki na „Narodziny Wenus” i studia Dürera, dobierasz punkty i testujesz hipotezę.",
+  doo:"Grywalne: przesuwasz i obracasz złotą spiralę po kompozycji (trafia niemal wszędzie), porównujesz siatkę φ z trójpodziałem i dzielisz figurę na moduły głowy Dürera.",
   math:"Kanon Polikleta; studia proporcji Dürera. Brak dowodu intencji φ.",
-  vk:"rom",vt:"Piękne, ale w większości dorysowane po fakcie."},
+  vk:"rom",vt:"Piękne, ale w większości dorysowane po fakcie.",
+  room:true,href:"eurytmia.html"},
 
- {n:"VIII",t:"Słowo",tag:"Rytmy mowy",verdict:"mix",
-  card:"Rytm i metrum jako liczba. Notacja Serviena; metafora jako analogía A:B::C:D.",
-  idea:"Ghyka chce pokazać, że ten sam Logos działa w geometrii świątyni i w wierszu. Most między liczbą a językiem.",
-  doo:"Plan: wklejasz polski wiersz, system zaznacza rytm prozodyczny i pokazuje proporcje akcentów.",
-  math:"Pius Servien (1930): formalizacja rytmu. Metafora = proporcja czteroczłonowa.",
-  vk:"mix",vt:"Notacja rytmu realna; „ten sam Logos” — piękna spekulacja."},
+ {n:"VIII",t:"Słowo",tag:"Złoty podział w czasie",verdict:"mix",
+  card:"Proporcja w czasie: kulminacja muzyczna w φ, łuk Bartóka, rytm mowy Serviena.",
+  idea:"Czy ten sam Logos działa w geometrii świątyni i w biegu zdania? W czasie φ bywa prawdziwe — gdy twórca świadomie je wstawia.",
+  doo:"Grywalne (audio): słuchasz kulminacji w ½ i w φ, oglądasz łuk Bartóka (takt 55 z 89 — sporne), wystukujesz rytm mowy i widzisz jego proporcje.",
+  math:"Pius Servien (1930): formalizacja rytmu. Bartók/Lendvai: φ i Fibonacci w formie (sporne).",
+  vk:"mix",vt:"Złota kulminacja działa na ucho; „φ w każdym wierszu” — już numerologia.",
+  room:true,href:"slowo.html"},
 
  {n:"IX",t:"Ogród",tag:"Filotaksja · NA ŻYWO",verdict:"rygor",live:true,
   card:"Złoty kąt 137,5°. Dlaczego słonecznik i szyszka liczą spiralami Fibonacciego.",
@@ -548,12 +552,13 @@ const CHAMBERS=[
   vk:"mix",vt:"Twój ezoteryczny rdzeń — historia transmisji, czytana z dystansem.",
   room:true,href:"loza.html"},
 
- {n:"XI",t:"Nauka",tag:"Powrót do Pitagorasa",verdict:"mix",
-  card:"Cantor, Einstein, Schrödinger; materia jako liczba. Bergsonowskie trwanie.",
-  idea:"Ghyka twierdzi, że fizyka XX wieku spełniła ideał pitagorejski: ostateczną realnością jest wzór matematyczny.",
-  doo:"Plan: pakiety falowe Schrödingera; krystalografia 5-krotna vs 6-krotna; oś „liczba staje się materią”.",
-  math:"Mechanika falowa de Broglie/Schrödinger; czasoprzestrzeń jako struktura geometryczna.",
-  vk:"mix",vt:"Fizyka twarda; „spełnienie Pitagorasa” — efektowna interpretacja."},
+ {n:"XI",t:"Nauka",tag:"Najbardziej niewymierna liczba",verdict:"mix",
+  card:"Ułamek łańcuchowy, optymalne upakowanie, quasikryształy Penrose'a i Shechtmana.",
+  idea:"Tu φ jest prawdziwe i głębokie — nie przez mistykę, lecz przez matematykę: liczba najtrudniejsza do przybliżenia ułamkiem rządzi upakowaniem liści i aperiodycznym ładem kryształów.",
+  doo:"Grywalne: budujesz ułamek łańcuchowy φ=[1;1,1,…], kręcisz kątem rozbieżności (równe upakowanie tylko przy 137,5°) i deflujesz parkietaż Penrose'a.",
+  math:"Ułamek [1;1,1,…]; tw. Hurwitza; złoty kąt 137,5° (Douady-Couder 1992); parkietaż Penrose'a; quasikryształy (Shechtman, Nobel 2011).",
+  vk:"mix",vt:"Twardy rdzeń matematyczny; margines mieszany — „liczba życia” Bergsona to filozofia, nie dowód.",
+  room:true,href:"nauka.html"},
 
  {n:"XII",t:"Probierz",tag:"Kamień probierczy · gra",verdict:"meta",
   card:"Zmierz sam słynne mity — nautilus, Partenon, Mona Lisa — i odróżnij φ od pobożnych życzeń.",

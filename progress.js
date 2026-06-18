@@ -12,9 +12,14 @@ const ACH={
   ogrodnik:{n:'Ogrodnik',d:'Znaleziony złoty kąt 137,5°'},
   konsonans:{n:'Mistrz konsonansu',d:'Wysłuchane pitagorejskie interwały'},
   odkrywca:{n:'Odkrywca',d:'Samodzielnie odkryte φ (x² = x + 1)'},
+  mierniczy:{n:'Mierniczy',d:'Zmierzone proporcje ciała'},
+  architekt:{n:'Architekt',d:'Mit i system proporcji świątyni'},
+  esteta:{n:'Esteta',d:'Złota siatka w sztuce zdemaskowana'},
+  prozodyk:{n:'Prozodyk',d:'Złoty podział w czasie usłyszany'},
+  matematyk:{n:'Matematyk',d:'Najbardziej niewymierna liczba poznana'},
   pielgrzym:{n:'Pielgrzym',d:'Odwiedzone wszystkie komnaty'},
 };
-const ROOMS={liczba:'Liczba',proporcja:'Proporcja',pentada:'Pentada',bryly:'Bryły',ogrod:'Ogród',loza:'Loża',probierz:'Probierz'};
+const ROOMS={liczba:'Liczba',proporcja:'Proporcja',pentada:'Pentada',bryly:'Bryły',cialo:'Ciało',swiatynia:'Świątynia',eurytmia:'Eurytmia',slowo:'Słowo',ogrod:'Ogród',loza:'Loża',nauka:'Nauka',probierz:'Probierz'};
 const AWARD_GOLD=20;
 
 function load(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return {}}}

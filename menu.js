@@ -7,13 +7,13 @@ const KOMNATY=[
   {r:'II',t:'Proporcja',sub:'Odkryj φ',href:'proporcja.html',room:'proporcja',vk:'rygor'},
   {r:'III',t:'Pentada',sub:'Pentagram · quasikryształ',href:'pentada.html',room:'pentada',vk:'rygor'},
   {r:'IV',t:'Bryły',sub:'Bryły platońskie 3D',href:'bryly.html',room:'bryly',vk:'rygor'},
-  {r:'V',t:'Ciało',sub:'Witruwiusz · Modulor',vk:'rom'},
-  {r:'VI',t:'Świątynia',sub:'Partenon · Hambidge',vk:'mix'},
-  {r:'VII',t:'Eurytmia',sub:'Botticelli · Dürer',vk:'rom'},
-  {r:'VIII',t:'Słowo',sub:'Rytmy mowy',vk:'mix'},
+  {r:'V',t:'Ciało',sub:'Witruwiusz · Modulor',href:'cialo.html',room:'cialo',vk:'rom'},
+  {r:'VI',t:'Świątynia',sub:'Partenon · Hambidge',href:'swiatynia.html',room:'swiatynia',vk:'mix'},
+  {r:'VII',t:'Eurytmia',sub:'Botticelli · Dürer',href:'eurytmia.html',room:'eurytmia',vk:'rom'},
+  {r:'VIII',t:'Słowo',sub:'Rytmy mowy',href:'slowo.html',room:'slowo',vk:'mix'},
   {r:'IX',t:'Ogród',sub:'Złoty kąt 137,5°',href:'atlas.html#garden',room:'ogrod',vk:'rygor'},
   {r:'X',t:'Loża',sub:'Przekaz wiedzy 3D',href:'loza.html',room:'loza',vk:'mix'},
-  {r:'XI',t:'Nauka',sub:'Schrödinger · Bergson',vk:'mix'},
+  {r:'XI',t:'Nauka',sub:'Schrödinger · Bergson',href:'nauka.html',room:'nauka',vk:'mix'},
   {r:'XII',t:'Probierz',sub:'Kamień probierczy · gra',href:'probierz.html',room:'probierz',vk:'meta'},
 ];
 const NAV=[

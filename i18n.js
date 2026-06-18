@@ -523,6 +523,229 @@ const D={
 // Penrose & Shechtman
 "5-krotna symetria w materii.":"5-fold symmetry in matter.",
 "Kafle Penrose’a pokrywają płaszczyznę bez powtórzeń, z φ wpisanym w proporcje; Shechtman odkrywa quasikryształy — Nobel 2011. Naukowa pointa całej tradycji.":"Penrose tiles cover the plane without repetition, with φ inscribed in their proportions; Shechtman discovers quasicrystals — Nobel 2011. The scientific punch line of the whole tradition.",
+
+// === Komnata V · Ciało (cialo.html) ===
+"kreślę ciało":"drawing the body",
+// dock — navel
+"górny : dolny":"upper : lower","od φ":"from φ","↺ pępek":"↺ navel",
+// dock — Vitruvius
+"▦ Kwadrat":"▦ Square","◯ Koło":"◯ Circle","wzrost : rozpiętość =":"height : armspan =",
+// dock — Modulor
+"seria":"series","czerwona":"red","niebieska":"blue","podniesiona ręka":"raised hand",
+// MOVES — headings ("Witruwiusz" & "Modulor" appear elsewhere; Modulor below)
+"Pępek i złoty podział":"The navel and the golden section","Modulor":"Modulor",
+// MOVES — body lines
+"Przesuwaj poziomą linijkę po sylwetce. Odczyt pokazuje stosunek odcinka górnego do dolnego. Pępek leży około 0,61–0,63 wysokości — blisko φ, ale nie w punkt, i u każdego człowieka inaczej.":"Slide the horizontal ruler over the figure. The readout shows the ratio of the upper segment to the lower. The navel sits at about 0.61–0.63 of the height — close to φ, but not exactly, and different in every person.",
+"Nałóż kwadrat (wzrost ≈ rozpiętość ramion) i koło o środku w pępku. To jest faktyczne twierdzenie Witruwiusza z „O architekturze” — proporcje proste, współmierne, kwadrat 1:1. Nie φ.":"Overlay a square (height ≈ armspan) and a circle centred on the navel. This is the actual claim of Vitruvius in „On Architecture” — simple, commensurable proportions, a 1:1 square. Not φ.",
+"Le Corbusier (1948) celowo wpisał φ w skalę człowieka: postać 183 cm, pępek w φ, podniesiona ręka na 226 cm. Czerwona i niebieska seria miar wspina się po ciele jak Fibonacci.":"Le Corbusier (1948) deliberately built φ into a human scale: a figure of 183 cm, the navel at φ, the raised hand at 226 cm. The red and blue series of measures climb the body like Fibonacci.",
+// MOVES — fact fragments (split by <b>)
+"Zeising twierdził, że pępek dzieli ciało":"Zeising claimed that the navel divides the body",
+"dokładnie":"exactly",
+"w φ. To dobór pod tezę — realne ciała dają":"at φ. That is cherry-picking to fit the thesis — real bodies give",
+"nigdy":"never",
+"nie wspomniał φ. „Człowiek φ-witruwiański” to":"never mentioned φ. The „φ-Vitruvian man” is a",
+"współczesna dorobiona":"modern, fabricated",
+"nakładka.":"overlay.",
+"Tu φ jest":"Here φ is",
+"prawdziwe":"genuine",
+"— bo architekt je":"— because the architect",
+"zaprojektował":"designed it in",
+", a nie dlatego, że ciało samo z siebie jest złote.":", and not because the body is golden in itself.",
+// chip
+"Romantyzm — serce numerologii":"Romanticism — the heart of numerology",
+
+// === Komnata VI · Świątynia (swiatynia.html) ===
+"wznoszę świątynię":"raising the temple",
+// panel base
+"Czy Partenon zna φ?":"Does the Parthenon know φ?",
+"werdykt mieszany — wybierz nakładkę u dołu":"a mixed verdict — choose an overlay below",
+"„»Partenon = φ« to mit. Ale Grecy mieli realny, piękny system proporcji.”":"„»Parthenon = φ« is a myth. But the Greeks did have a real, beautiful system of proportion.”",
+"SECTIO AUREA · Komnata VI":"SECTIO AUREA · Chamber VI",
+"Trzy nakładki nałożone na tę samą fasadę. Pierwsza to":"Three overlays laid on the same facade. The first is a",
+"legenda":"legend",
+", dwie kolejne —":", the next two —",
+"prawdziwy rygor":"genuine rigor",
+". Porównaj, która faktycznie pasuje do bryły.":". Compare which one actually fits the structure.",
+"Werdykt · Mieszany":"Verdict · Mixed",
+// panel nums labels
+"stosunek":"ratio","charakter":"character","metoda":"method",
+// MODES — names, glosses
+"Mit złotego prostokąta":"The golden-rectangle myth","Dynamiczna symetria":"Dynamic symmetry","Prawdziwe liczby":"The real numbers",
+"legenda, którą trzeba naciągnąć":"a legend that has to be forced","realna grecka logika proporcji":"the real Greek logic of proportion","współmierna harmonia liczb całkowitych":"the commensurable harmony of whole numbers",
+// MODES — a/b/cN chips
+"naciągane":"forced","konstruowalne":"constructible","współmierne":"commensurable","Hambidge":"Hambidge","moduł":"module","pomiar":"measurement",
+// MODES — quotes + sources
+"Nie ma żadnego niezawodnego dowodu, że Partenon zaprojektowano w oparciu o złoty podział.":"There is no reliable evidence that the Parthenon was designed on the golden section.",
+"George Markowsky, „Misconceptions about the Golden Ratio” (1992)":"George Markowsky, „Misconceptions about the Golden Ratio” (1992)",
+"Grecka sztuka projektowania operowała stosunkami niewymiernymi, ale konstruowalnymi — prostokątami pierwiastkowymi.":"The Greek art of design worked with irrational but constructible ratios — root rectangles.",
+"Jay Hambidge, „Dynamic Symmetry” (1920)":"Jay Hambidge, „Dynamic Symmetry” (1920)",
+"Szerokość do wysokości, długość do szerokości, rozstaw kolumn do ich średnicy — wszędzie powraca stosunek 9 do 4.":"Width to height, length to width, column spacing to their diameter — everywhere the ratio of 9 to 4 returns.",
+"Analiza wymiarów Partenonu (kanon dorycki)":"Analysis of the Parthenon's dimensions (the Doric canon)",
+// MODES — note fragments (split by <b>)
+"pasuje tylko wtedy":"fits only when",
+", gdy dobierzemy, skąd dokąd mierzyć: zaczynamy od drugiego stopnia (czerwone linie poniżej) i":"we choose where to measure from and to: starting from the second step (red lines below) and",
+"pomijamy cały tympanon":"omitting the whole pediment",
+"(czerwone linie u góry). Inaczej proporcja 1:φ nie wychodzi. To nie projekt — to":"(red lines above). Otherwise the 1:φ ratio does not come out. This is no design — it is",
+"dopasowanie po fakcie":"a fit after the fact",
+"Prostokąty":"The rectangles",
+"buduje się cyrklem i linijką z kwadratu. To była":"are built with compass and straightedge from a square. This was the",
+"prawdziwa":"real",
+"grecka logika kompozycji — i pasuje do bryły lepiej niż mit φ. A √5 wiąże się ze złotą liczbą wprost:":"Greek logic of composition — and it fits the structure better than the φ myth. And √5 is tied to the golden number directly:",
+"(przekątna prostokąta √5).":"(the diagonal of the √5 rectangle).",
+"Partenonem rządzi prosty,":"The Parthenon is governed by a simple,",
+"współmierny":"commensurable",
+"— powtórzony w wielu wymiarach budowli. To grecka harmonia":"— repeated across many dimensions of the building. This is a Greek harmony of",
+"liczb całkowitych":"whole numbers",
+", a nie niewymierne φ. Rygor był — tylko liczbowy, modularny.":", not the irrational φ. Rigor there was — only numerical, modular.",
+// verdict chip labels
+"Mit — naciągane":"Myth — forced","Rygor — realne":"Rigor — real",
+
+// === Komnata VII · Eurytmia (eurytmia.html) ===
+"naciągam siatkę":"stretching the grid",
+// dock
+"obrót":"rotation","⇄ odbij":"⇄ mirror","trafień":"hits","siatka φ":"φ grid","trójpodział":"rule of thirds","różnica":"difference","moduł głowy":"head module","głów":"heads","podziałki":"subdivisions",
+// MOVES — headings
+"Złota spirala na płótnie":"The golden spiral on the canvas","Φ kontra trójpodział":"Φ versus the rule of thirds","Dürer naprawdę":"Dürer for real",
+// MOVES — body lines
+"Przeciągnij i obróć złotą spiralę po schematycznej kompozycji. Zobaczysz, że przy odrobinie swobody potrafi „trafić” w niemal każdy element — bo to TY wybierasz, gdzie ją zaczepić. Niemal każdy obraz da „dopasowanie” do φ.":"Drag and rotate the golden spiral over a schematic composition. You will see that, with a little freedom, it can „hit” almost any element — because YOU choose where to anchor it. Almost any picture will yield a „match” to φ.",
+"Na ten sam obraz nałóż siatkę φ (linie w 0,382 i 0,618) ORAZ siatkę trójpodziału (0,333 i 0,667). Włącz obie naraz — leżą niemal na sobie. Deklarowane „φ w sztuce” zwykle nie da się odróżnić od zwykłej reguły trójpodziału.":"On the same picture overlay the φ grid (lines at 0.382 and 0.618) AND the rule-of-thirds grid (0.333 and 0.667). Turn on both at once — they lie almost on top of each other. Claimed „φ in art” usually cannot be told apart from the plain rule of thirds.",
+"Dürer w „Czterech księgach o proporcjach człowieka” dzielił figurę na MODUŁY głowy (zwykle 8 głów wzrostu) i ich ułamki — 1/2, 1/3, 1/4. Nie używał φ. Prawdziwi mistrzowie mieli SYSTEMY proporcji — tyle że nie złoty podział.":"In his „Four Books on Human Proportion” Dürer divided the figure into head MODULES (usually 8 heads tall) and their fractions — 1/2, 1/3, 1/4. He did not use φ. The true masters had SYSTEMS of proportion — just not the golden section.",
+// MOVES — fact fragments (split by <b>)
+"wolny wybór zaczepienia ⟹":"free choice of anchor ⟹",
+"prawie każda kompozycja":"almost any composition",
+"„pasuje” do φ · to dobieranie pod tezę":"„fits” φ · this is cherry-picking to fit the thesis",
+"0,618 vs 0,667 — różnica":"0.618 vs 0.667 — a difference of",
+"· w skali obrazu mieści się w błędzie pomiaru":"· at the scale of a picture it falls within measurement error",
+"system modularny:":"a modular system:",
+"wzrost = N × głowa":"height = N × head",
+"+ ułamki · u Dürera ani śladu φ":"+ fractions · in Dürer not a trace of φ",
+// panel eq fragments (split by <span class="x">)
+"wzrost =":"height =",
+"× głowa  ·  ułamki ½, ⅓, ¼":"× head  ·  fractions ½, ⅓, ¼",
+// chip
+"Romantyzm — siatka po fakcie":"Romanticism — a grid after the fact",
+// hints
+"Przeciągnij spiralę po obrazie, obracaj suwakiem. Patrz, ile cech „dotyka”.":"Drag the spiral over the picture, rotate with the slider. Watch how many features it „touches”.",
+"Włącz obie siatki naraz. Zobacz, jak blisko siebie leżą linie φ i trójpodziału.":"Turn on both grids at once. See how close the φ and rule-of-thirds lines lie.",
+"Zmień liczbę „głów” wzrostu i włącz podziałki. To realny system Dürera.":"Change the number of „heads” of height and turn on the subdivisions. This is Dürer's real system.",
+
+// === Komnata VIII · Słowo (slowo.html) ===
+"odmierzam czas":"measuring out time",
+// dock — buttons / labels
+"Kulminacja w ½":"Climax at ½","Kulminacja w φ":"Climax at φ","▶ Przejdź łuk (89 taktów)":"▶ Cross the arc (89 bars)","kulminacja: takt":"climax: bar","● Wystukaj rytm":"● Tap out a rhythm","ostatni iloraz:":"last ratio:",
+// hint fragments (split by <b>)
+"φ działa w":"φ works in","czasie":"time",", nie w przestrzeni":", not in space",
+// MODES (rt/t/sub)
+"Punkt kulminacji":"The point of climax","A / B na ucho":"A / B by ear","Bartók":"Bartók","Lendvai · sporne":"Lendvai · disputed","Rytm mowy":"Rhythm of speech","Servien · wystukaj":"Servien · tap it out",
+// PANELS — eyebrows, headings, glosses
+"Prozodia · kulminacja":"Prosody · climax","Złota kulminacja":"The golden climax","gdzie postawić szczyt frazy — w połowie czy w 0,618?":"where to place the peak of a phrase — at the half or at 0.618?",
+"Muzyka · Béla Bartók":"Music · Béla Bartók","Łuk 55 / 89":"The 55 / 89 arc","Ernő Lendvai: Bartók komponował na φ i Fibonaccim":"Ernő Lendvai: Bartók composed on φ and Fibonacci",
+"Język · Pius Servien":"Language · Pius Servien","czy w rytmie zdania mieszka φ?":"does φ dwell in the rhythm of a sentence?",
+// PANELS — body fragments (split by <b>)
+"Wielu kompozytorów i poetów stawia":"Many composers and poets place the",
+"punkt kulminacyjny":"climactic point",
+"nie pośrodku, lecz później — około":"not in the middle but later — at about",
+"trwania. Szczyt, który nadchodzi „za późno”, buduje większe napięcie. To realny chwyt warsztatowy: ucho słyszy różnicę. Posłuchaj obu wersji tej samej frazy.":"of the duration. A peak that arrives „too late” builds greater tension. This is a real craft device: the ear hears the difference. Listen to both versions of the same phrase.",
+"Węgierski teoretyk":"The Hungarian theorist",
+"Ernő Lendvai":"Ernő Lendvai",
+"twierdził, że Bartók budował formy na":"claimed that Bartók built his forms on the",
+"złotym podziale":"golden section",
+"— np. kulminacja około":"— e.g. a climax at about",
+"taktu 55 z 89":"bar 55 of 89",
+"(kolejne liczby Fibonacciego). Bartók znał matematykę, więc brzmi to wiarygodnie.":"(successive Fibonacci numbers). Bartók knew mathematics, so it sounds plausible.",
+"Uczciwie jednak:":"In fairness, though:",
+"analiza Lendvaia jest":"Lendvai's analysis is",
+"sporna":"disputed",
+"— jednych przekonuje, inni mówią o dopasowaniu liczb po fakcie.":"— it convinces some, while others speak of fitting the numbers after the fact.",
+"Pius Servien":"Pius Servien",
+"szukał mierzalnych proporcji w rytmie mowy i wiersza. Wystukaj naturalny rytm — zobaczysz, że odstępy układają się w proste stosunki:":"sought measurable proportions in the rhythm of speech and verse. Tap out a natural rhythm — you will see the intervals fall into simple ratios:",
+"(jak w muzyce), a nie w":"(as in music), and not in",
+". φ w języku to najczęściej romantyczna projekcja.":". φ in language is most often a romantic projection.",
+// panel nums labels
+"złoty punkt":"golden point","rytm mowy":"speech rhythm",
+// quote + src
+"„Czas jest tworzywem muzyki i wiersza — a proporcja czasu bywa złota.”":"„Time is the material of music and verse — and the proportion of time is sometimes golden.”",
+"parafraza prozodii dynamicznej":"a paraphrase of dynamic prosody",
+// nowplaying static
+"wybierz tryb i posłuchaj":"choose a mode and listen",
+// mixed-verdict note (split by <b>) — "Werdykt — MIESZANY." handled by RX once MIESZANY added
+"MIESZANY":"MIXED",
+"W czasie φ bywa":"In time φ is sometimes",
+"PRAWDZIWE":"REAL",
+"— gdy twórca świadomie je wstawia (Bartók, i to sporne). „Złota” kulminacja działa na ucho. Ale „φ w każdym wierszu” to już numerologia.":"— when the maker consciously puts it in (Bartók, and even that is disputed). A „golden” climax works on the ear. But „φ in every poem” is already numerology.",
+"◆ — Mieszany werdykt":"◆ — Mixed verdict",
+// showNow dynamic readouts (name + sub)
+"kulminacja w złotym podziale":"climax at the golden section","kulminacja w połowie frazy":"climax at the middle of the phrase","szczyt później — bardziej dramatycznie":"the peak later — more dramatic","szczyt pośrodku — spokojnie":"the peak in the middle — calm",
+"takt 55 / 89":"bar 55 / 89","φ ≈ 0,618 · liczby Fibonacciego":"φ ≈ 0.618 · Fibonacci numbers","wg Ernő Lendvaia (analiza SPORNA)":"after Ernő Lendvai (a DISPUTED analysis)",
+"1:1 · równo":"1:1 · even","3:2 · muzyczny":"3:2 · musical","2:1 · muzyczny":"2:1 · musical","φ · złoty":"φ · golden","najbliżej:":"nearest:",
+"naturalny rytm = proste stosunki":"natural rhythm = simple ratios","φ w rytmie mowy zdarza się rzadko":"φ in speech rhythm happens rarely",
+// applyMode hints (split by <b>)
+"Posłuchaj obu kulminacji":"Listen to both climaxes",
+"brzmi spokojnie ·":"sounds calm ·",
+"— później, dramatyczniej":"— later, more dramatic",
+"Łuk napięcia rośnie do":"The arc of tension rises to",
+"taktu":"bar",
+"55 z 89":"55 of 89",
+"Wystukaj rytm:":"Tap out a rhythm:",
+"spacja":"space",
+"lub przycisk":"or the button",
+"naturalnie wpada w 2:1 / 3:2":"it naturally falls into 2:1 / 3:2",
+
+// === Komnata XI · Nauka (nauka.html) ===
+"liczę zbieżność φ":"computing the convergence of φ",
+// dock
+"‹ wstecz":"‹ back","przybliżenie":"approximation","dalej ›":"next ›","▶ auto":"▶ auto","⏸ stop":"⏸ stop","kąt rozbieżności":"divergence angle","↺ złoty kąt":"↺ golden angle","↗ podziel (deflacja)":"↗ subdivide (deflation)","o krysztale życia":"on the crystal of life",
+// MOVES — headings
+"Ułamek łańcuchowy":"The continued fraction","Dlaczego liście":"Why leaves","Penrose i Schrödinger":"Penrose and Schrödinger",
+// MOVES — body lines
+"φ = 1 + 1/(1 + 1/(1 + …)) — same jedynki, w nieskończoność. Ucinając go, dostajesz iloraz kolejnych liczb Fibonacciego: 1/1, 2/1, 3/2, 5/3, 8/5, 13/8 … Ponieważ każdy współczynnik to najmniejsza możliwa jedynka, φ przybliża się ułamkami najtrudniej ze wszystkich liczb.":"φ = 1 + 1/(1 + 1/(1 + …)) — all ones, to infinity. Cut it off and you get the ratio of successive Fibonacci numbers: 1/1, 2/1, 3/2, 5/3, 8/5, 13/8 … Because every coefficient is the smallest possible one, φ is the hardest of all numbers to approximate by fractions.",
+"Skoro φ opiera się przybliżeniu ułamkiem, złoty kąt 137,5° nigdy nie ustawia nasion w równe rzędy — żaden obrót nie domyka się okresowo. Efekt: upakowanie bez luk, fizyczne optimum. To wynik (Douady i Couder, 1992 — minimalizacja energii), nie magia.":"Since φ resists approximation by a fraction, the golden angle 137.5° never sets the seeds in even rows — no rotation ever closes up periodically. The effect: packing without gaps, a physical optimum. This is a result (Douady and Couder, 1992 — energy minimization), not magic.",
+"Te same φ rządzą niperiodycznym kafelkowaniem Penrose’a (dwa romby o stosunku przekątnych φ) i prawdziwymi quasikryształami (Shechtman, Nobel 2011) — uporządkowanie dalekiego zasięgu bez powtarzalności. Schrödinger (1944) przewidział, że życie potrzebuje „kryształu aperiodycznego” — później okazało się nim DNA.":"The same φ governs Penrose's aperiodic tiling (two rhombi whose diagonals are in the ratio φ) and real quasicrystals (Shechtman, Nobel 2011) — long-range order without repetition. Schrödinger (1944) predicted that life needs an „aperiodic crystal” — which later turned out to be DNA.",
+// MOVES — fact fragments (split by <b>)
+"φ = [1; 1, 1, 1, …]  ·  zbieżne =":"φ = [1; 1, 1, 1, …]  ·  convergents =",
+"Fₙ₊₁ / Fₙ":"Fₙ₊₁ / Fₙ",
+"·  błąd · q² →":"·  error · q² →",
+"(tw. Hurwitza)":"(Hurwitz's theorem)",
+"złoty kąt = 360° · (2 − φ) =":"golden angle = 360° · (2 − φ) =",
+"·  tylko tu spirala wypełnia się równomiernie":"·  only here does the spiral fill evenly",
+"romby Penrose’a: cienki":"Penrose rhombi: thin",
+", gruby":", thick",
+"·  aperiodyczny porządek = quasikryształ":"·  aperiodic order = quasicrystal",
+// HINTS
+"krok po kroku — patrz, jak błąd maleje (wolniej niż dla π)":"step by step — watch the error shrink (slower than for π)",
+"pokrętło kąta — równo pakuje się tylko przy 137,5°":"turn the angle dial — it packs evenly only at 137.5°",
+"podziel romby (deflacja) — wzór nigdy się nie powtarza":"subdivide the rhombi (deflation) — the pattern never repeats",
+// step + chip labels (note: "Ruch N / 3 · Nauka" not matched by RX → literal keys)
+"Ruch 1 / 3 · Nauka":"Movement 1 / 3 · Science","Ruch 2 / 3 · Nauka":"Movement 2 / 3 · Science","Ruch 3 / 3 · Nauka":"Movement 3 / 3 · Science",
+"RYGOR · NOBEL":"RIGOR · NOBEL",
+
+// === Atlas — zmienione/nowe stringi (atlas.html) ===
+// lead band fragment (split by <b>werdyktem</b> + <span>) — only the new tail fragments
+"— rygor, mieszany czy romantyzm. Kliknij kartę —":"— rigor, mixed or romanticism. Click a card —",
+"wszystkie dwanaście komnat":"all twelve chambers",
+"jest już grywalnych.":"are now playable.",
+// colophon
+"Atlas kompletny · dwanaście grywalnych komnat · od rygoru po romantyzm":"Atlas complete · twelve playable chambers · from rigor to romanticism",
+// new chamber tags (VIII, XI)
+"Złoty podział w czasie":"The golden section in time","Najbardziej niewymierna liczba":"The most irrational number",
+// chamber V · doo (changed → now playable)
+"Grywalne: przeciągasz linię pomiarową po figurze (pępek ≈ 0,61–0,63, nie dokładnie φ), włączasz kwadrat i koło Witruwiusza, oglądasz φ-serię Modulora.":"Playable: you drag a measuring line across the figure (the navel ≈ 0.61–0.63, not exactly φ), switch on Vitruvius's square and circle, and look at the φ series of the Modulor.",
+// chamber VI · doo (changed → now playable)
+"Grywalne 3D: obracasz fasadę świątyni doryckiej i nakładasz prostokąt φ (mit, który nie pasuje), prostokąty pierwiastkowe Hambidge'a (√2·√3·√5) oraz współmierną siatkę 9:4.":"Playable 3D: you rotate a Doric temple facade and overlay the φ rectangle (a myth that does not fit), Hambidge's root rectangles (√2·√3·√5) and the commensurable 9:4 grid.",
+// chamber VII · doo (changed → now playable)
+"Grywalne: przesuwasz i obracasz złotą spiralę po kompozycji (trafia niemal wszędzie), porównujesz siatkę φ z trójpodziałem i dzielisz figurę na moduły głowy Dürera.":"Playable: you move and rotate the golden spiral over a composition (it hits almost everywhere), compare the φ grid with the rule of thirds and divide the figure into Dürer's head modules.",
+// chamber VIII · card / idea / doo / math / vt (all new)
+"Proporcja w czasie: kulminacja muzyczna w φ, łuk Bartóka, rytm mowy Serviena.":"Proportion in time: a musical climax at φ, Bartók's arc, Servien's rhythm of speech.",
+"Czy ten sam Logos działa w geometrii świątyni i w biegu zdania? W czasie φ bywa prawdziwe — gdy twórca świadomie je wstawia.":"Does the same Logos work in the geometry of the temple and in the run of a sentence? In time φ is sometimes real — when the maker consciously puts it in.",
+"Grywalne (audio): słuchasz kulminacji w ½ i w φ, oglądasz łuk Bartóka (takt 55 z 89 — sporne), wystukujesz rytm mowy i widzisz jego proporcje.":"Playable (audio): you listen to the climax at ½ and at φ, watch Bartók's arc (bar 55 of 89 — disputed), tap out the rhythm of speech and see its proportions.",
+"Pius Servien (1930): formalizacja rytmu. Bartók/Lendvai: φ i Fibonacci w formie (sporne).":"Pius Servien (1930): a formalization of rhythm. Bartók/Lendvai: φ and Fibonacci in form (disputed).",
+"Złota kulminacja działa na ucho; „φ w każdym wierszu” — już numerologia.":"The golden climax works on the ear; „φ in every poem” is already numerology.",
+// chamber XI · card / idea / doo / math / vt (all new)
+"Ułamek łańcuchowy, optymalne upakowanie, quasikryształy Penrose’a i Shechtmana.":"The continued fraction, optimal packing, the quasicrystals of Penrose and Shechtman.",
+"Tu φ jest prawdziwe i głębokie — nie przez mistykę, lecz przez matematykę: liczba najtrudniejsza do przybliżenia ułamkiem rządzi upakowaniem liści i aperiodycznym ładem kryształów.":"Here φ is real and deep — not through mysticism, but through mathematics: the number hardest to approximate by a fraction governs the packing of leaves and the aperiodic order of crystals.",
+"Grywalne: budujesz ułamek łańcuchowy φ=[1;1,1,…], kręcisz kątem rozbieżności (równe upakowanie tylko przy 137,5°) i deflujesz parkietaż Penrose’a.":"Playable: you build the continued fraction φ=[1;1,1,…], turn the divergence angle (even packing only at 137.5°) and deflate a Penrose tiling.",
+"Ułamek [1;1,1,…]; tw. Hurwitza; złoty kąt 137,5° (Douady-Couder 1992); parkietaż Penrose’a; quasikryształy (Shechtman, Nobel 2011).":"The fraction [1;1,1,…]; Hurwitz's theorem; the golden angle 137.5° (Douady-Couder 1992); the Penrose tiling; quasicrystals (Shechtman, Nobel 2011).",
+"Twardy rdzeń matematyczny; margines mieszany — „liczba życia” Bergsona to filozofia, nie dowód.":"A hard mathematical core; a mixed margin — Bergson's „number of life” is philosophy, not proof.",
 };
 /* wzorce z liczbami / interpolacją */
 const RX=[

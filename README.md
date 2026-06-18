@@ -14,7 +14,12 @@ Przedmiotem jest **złota liczba**, a Matila Ghyka — jednym z filarów, nie je
 | `proporcja.html` | Komnata II — odkryj φ, wirujące kwadraty, Fibonacci |
 | `pentada.html` | Komnata III — pentagram, nieskończone zejście, shader quasikryształu |
 | `bryly.html` | Komnata IV — bryły platońskie 3D + quiz |
+| `cialo.html` | Komnata V — proporcje ciała: pępek/φ, Witruwiusz, Modulor |
+| `swiatynia.html` | Komnata VI — Partenon 3D: mit φ vs dynamiczna symetria Hambidge'a |
+| `eurytmia.html` | Komnata VII — złota siatka na obrazie: cherry-picking, φ vs trójpodział, Dürer |
+| `slowo.html` | Komnata VIII — złoty podział w czasie: kulminacja, Bartók, rytm mowy (audio) |
 | `loza.html` | Komnata X — konstelacja przekazu wiedzy 3D + gra |
+| `nauka.html` | Komnata XI — najbardziej niewymierna liczba: ułamek łańcuchowy, upakowanie, Penrose |
 | `probierz.html` | Komnata XII — kamień probierczy: gra obalania mitów |
 | `filary.html` | Filary — kolumnada 3D ośmiu myślicieli |
 | `progress.js` | Wspólny system złota/rang/odznak (Skarbiec, localStorage) |
