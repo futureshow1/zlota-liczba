@@ -52,6 +52,10 @@ function injectCSS(){
   #saHud .sa-coin{color:#f2d27a;font-size:14px;line-height:1}
   #saHud .sa-g{font-family:"Fraunces",Georgia,serif;font-size:15px;color:#f2d27a;font-variant-numeric:tabular-nums}
   #saHud .sa-sep{width:1px;height:13px;background:rgba(227,178,60,.3)}
+  #saHud .sa-sep2{width:1px;height:13px;background:rgba(227,178,60,.3)}
+  #saHud .sa-lang{font-family:"Inter",sans-serif;font-size:11px;font-weight:600;letter-spacing:.08em;color:#e3b23c;
+    background:transparent;border:none;padding:2px 2px;cursor:pointer;line-height:1}
+  #saHud .sa-lang:hover{color:#f2d27a;text-decoration:underline;text-underline-offset:3px}
   #saHud .sa-r{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#9a93a6}
   #saToasts{position:fixed;top:52px;left:50%;transform:translateX(-50%);z-index:91;display:flex;flex-direction:column;align-items:center;gap:8px;pointer-events:none}
   .sa-toast{font-family:"Inter",sans-serif;font-size:12.5px;color:#ece6d6;background:rgba(12,11,20,.92);border:1px solid rgba(227,178,60,.4);
@@ -93,7 +97,8 @@ function injectCSS(){
   #saTre .sa-home{font-size:11.5px;color:#1a1305;background:#e3b23c;border:none;border-radius:999px;padding:9px 18px;cursor:pointer;text-decoration:none}
   @media(max-width:560px){#saTre .sa-grid{grid-template-columns:1fr}}
   @media(max-width:600px){
-    #saHud{left:auto;right:12px;transform:none;top:11px;padding:6px 13px}
+    #saHud{left:auto;right:60px;transform:none;top:11px;padding:6px 13px}
+    #saHud .sa-sep,#saHud .sa-r{display:none}
     #saHud .sa-g{font-size:14px}
     #saToasts{top:58px;max-width:92vw}
     .brand small{display:none}
@@ -105,6 +110,15 @@ function buildHUD(){
   hud=document.createElement('div');hud.id='saHud';hud.title='Twoje złoto · kliknij po Skarbiec';
   hud.innerHTML='<span class="sa-coin">✦</span><span class="sa-g">0</span><span class="sa-sep"></span><span class="sa-r">Profan</span>';
   hud.addEventListener('click',openTreasury);document.body.appendChild(hud);
+  /* PL/EN na wierzchu — wcześniej przełącznik był ukryty w menu */
+  const jezyk=(window.I18N&&I18N.lang)||'pl';
+  const lb=document.createElement('button');lb.className='sa-lang';lb.type='button';
+  lb.textContent=jezyk==='en'?'PL':'EN';
+  lb.title=jezyk==='en'?'Wersja polska':'English version';
+  lb.setAttribute('aria-label',lb.title);
+  lb.addEventListener('click',e=>{e.stopPropagation();if(window.I18N)I18N.toggle();});
+  const sep=document.createElement('span');sep.className='sa-sep2';
+  hud.appendChild(sep);hud.appendChild(lb);
   toastWrap=document.createElement('div');toastWrap.id='saToasts';document.body.appendChild(toastWrap);
   refresh();
 }

@@ -5,6 +5,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SECTIO AUREA · Dwunastościan-nawigator</title>
+<meta name="description" content="Interaktywny atlas Złotej Liczby: obróć dwunastościan i wejdź do jednej z dwunastu komnat — od pitagorejskiej harmonii po quasikryształy.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SECTIO AUREA · FutureShow">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="SECTIO AUREA · Atlas Złotej Liczby">
+<meta property="og:description" content="Interaktywny atlas Złotej Liczby: obróć dwunastościan i wejdź do jednej z dwunastu komnat — od pitagorejskiej harmonii po quasikryształy.">
+<meta property="og:url" content="https://futureshow.pl/zlota-liczba/">
+<meta property="og:image" content="https://futureshow.pl/zlota-liczba/og/atlas.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -179,12 +190,25 @@ scene.background=new THREE.Color(0x08070d);
 scene.fog=new THREE.FogExp2(0x08070d,0.085);
 
 const camera=new THREE.PerspectiveCamera(50,innerWidth/innerHeight,0.1,100);
+const DOTYK=matchMedia('(hover: none)').matches;
+if(DOTYK){
+  const t=document.getElementById('cTtl'); if(t) t.textContent='Dotknij ściany';
+  const h=document.querySelector('.hint'); if(h) h.innerHTML='Przeciągnij — obróć<br>Dotknij ściany — wejdź';
+}
 camera.position.set(2.4,1.5,5.8);
 
 const controls=new OrbitControls(camera,renderer.domElement);
 controls.enableDamping=true;controls.dampingFactor=0.06;
 controls.autoRotate=true;controls.autoRotateSpeed=0.55;
 controls.minDistance=4;controls.maxDistance=11;controls.enablePan=false;
+/* na wąskim, pionowym ekranie kamera odsuwa się, żeby bryła zmieściła się w szerokości */
+const BAZA_ODL=camera.position.length();
+function dopasujKamere(){
+  const a=innerWidth/innerHeight, f=Math.max(1,0.8/a);
+  controls.maxDistance=Math.max(11,BAZA_ODL*f*1.25);
+  camera.position.setLength(BAZA_ODL*f);
+}
+dopasujKamere();
 
 const pmrem=new THREE.PMREMGenerator(renderer);
 scene.environment=pmrem.fromScene(new RoomEnvironment(),0.04).texture;
@@ -273,7 +297,7 @@ function showCard(i,soon){
   else{st.className='status soon';st.textContent=soon?'w przygotowaniu…':'wkrótce';}
 }
 function idleCard(){card.classList.add('idle');
-  document.getElementById('cRom').textContent='Φ';document.getElementById('cTtl').textContent='Najedź na ścianę';
+  document.getElementById('cRom').textContent='Φ';document.getElementById('cTtl').textContent=DOTYK?'Dotknij ściany':'Najedź na ścianę';
   document.getElementById('cCh').textContent='';document.getElementById('cChip').style.display='none';
   document.getElementById('cStatus').textContent='';
   document.getElementById('cLine').textContent='Dwunastościan to nawigator portalu — 12 ścian odpowiada 12 komnatom traktatu Ghyki.';}
@@ -338,7 +362,7 @@ function animate(){
   });
   composer.render();
 }
-addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();dopasujKamere();
   renderer.setSize(innerWidth,innerHeight);composer.setSize(innerWidth,innerHeight);});
 
 idleCard();animate();

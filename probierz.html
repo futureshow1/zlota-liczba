@@ -4,6 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Komnata XII · Probierz — SECTIO AUREA</title>
+<meta name="description" content="Komnata XII: nautilus, Partenon, Mona Lisa, karta kredytowa. Zmierz słynne „złote” przykłady i naucz się odróżniać naukę od pięknej opowieści.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SECTIO AUREA · FutureShow">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="Komnata XII · Probierz — SECTIO AUREA">
+<meta property="og:description" content="Komnata XII: nautilus, Partenon, Mona Lisa, karta kredytowa. Zmierz słynne „złote” przykłady i naucz się odróżniać naukę od pięknej opowieści.">
+<meta property="og:url" content="https://futureshow.pl/zlota-liczba/probierz.html">
+<meta property="og:image" content="https://futureshow.pl/zlota-liczba/og/probierz.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -161,7 +172,16 @@ const VLABEL={prawda:'Prawda',prawie:'Prawie',zalezy:'Zależy',mit:'Mit'};
 const cv=$('#c'),ctx=cv.getContext('2d');let W,H,DPR;
 function resize(){DPR=Math.min(2,devicePixelRatio||1);W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);draw();}
 addEventListener('resize',resize);
-function stage(){return {cx:W*0.42,cy:H*0.5,s:Math.min(W*0.5,H*0.62)};}
+/* na telefonie karta zajmuje środek ekranu — eksponat rysujemy w wolnym pasie nad nią */
+function stage(){
+  if(W<=900){
+    const p=document.querySelector('.panel');
+    const gora=66, dol=(p?p.getBoundingClientRect().top:H*0.5)-12;
+    const h=Math.max(130,dol-gora);
+    return {cx:W*0.5,cy:gora+h/2,s:Math.min(W*0.82,h*0.92),mob:true};
+  }
+  return {cx:W*0.42,cy:H*0.5,s:Math.min(W*0.5,H*0.62)};
+}
 
 /* ---------- state ---------- */
 let cur=0, rect=null, dragging=false, ds=null, showGold=false, showSpiral=false, growth=1.33, guess=null;
@@ -221,12 +241,12 @@ function draw(){
   else if(c.id==='card')drawCard(cx,cy,s);
   else if(c.id==='monalisa')drawMona(cx,cy,s);
   else if(c.id==='nautilus'){
-    const ncx=W*0.36, ncy=H*0.46;
-    logSpiral(ncx,ncy,growth,3.6,'rgba(242,210,122,.95)',2.4,0,46);              // nautilus (your dial)
+    const st=stage(), ncx=st.mob?st.cx:W*0.36, ncy=st.mob?st.cy:H*0.46, r0=st.mob?Math.max(14,46*st.s/330):46;
+    logSpiral(ncx,ncy,growth,3.6,'rgba(242,210,122,.95)',2.4,0,r0);              // nautilus (your dial)
     if(showSpiral){
-      logSpiral(ncx,ncy,Math.pow(PHI,4),1.12,'rgba(210,85,63,.9)',1.8,0,46);     // golden spiral — diverges fast
+      logSpiral(ncx,ncy,Math.pow(PHI,4),1.12,'rgba(210,85,63,.9)',1.8,0,r0);     // golden spiral — diverges fast
       ctx.fillStyle='rgba(210,85,63,.9)';ctx.font='italic 12px Inter';
-      ctx.fillText('złota spirala — ucieka z kadru', ncx+90, ncy-120);
+      ctx.fillText('złota spirala — ucieka z kadru', st.mob?ncx-W*0.4:ncx+90, st.mob?st.cy-st.s*0.42:ncy-120);
     }
     ctx.fillStyle='rgba(242,210,122,.85)';ctx.font='italic 12px Inter';
     ctx.fillText('muszla łodzika', ncx-30, ncy+8);
@@ -307,7 +327,7 @@ function renderPanel(){
   $('#revealBtn').addEventListener('click',()=>{
     if(state[c.id].done)return;state[c.id].done=true;state[c.id].hit=(guess===c.verdict);
     if(window.SA){SA.add(6,'Eksponat zbadany');if(state[c.id].hit)SA.add(8,'Trafny werdykt');}
-    renderPanel();updateScore();
+    renderPanel();updateScore();draw();
   });
   // tools visibility
   $('#tgGold').classList.toggle('show',c.tool==='measure');
@@ -351,7 +371,7 @@ gr.addEventListener('input',()=>{growth=+gr.value;$('#growthVal').textContent=fm
 
 /* ---------- go ---------- */
 document.querySelectorAll('#cases button')[0].classList.add('active');
-resize();renderPanel();
+resize();renderPanel();draw();
 setTimeout(()=>$('#loading').classList.add('gone'),500);
 if(window.SA){SA.mountHUD();SA.visit('probierz');}
 </script>

@@ -69,8 +69,9 @@ function injectCSS(){
   #smOv .sm-lang .sw button{font-family:"Inter",sans-serif;font-size:11px;font-weight:600;letter-spacing:.06em;color:#9a93a6;background:transparent;border:none;padding:6px 14px;cursor:pointer;transition:.2s}
   #smOv .sm-lang .sw button.on{color:#1a1305;background:#e3b23c}
   @media(max-width:600px){
-    #smFab{right:14px;bottom:18px;padding:8px 13px;gap:6px;font-size:10.5px;letter-spacing:.04em}
-    #smFab .b{font-size:14px}
+    /* na telefonie dół ekranu należy do treści (karty, zakładki) — ☰ idzie na górę, obok licznika złota */
+    #smFab{top:11px;bottom:auto;right:12px;width:40px;height:40px;padding:0;gap:0;justify-content:center;font-size:0;letter-spacing:0}
+    #smFab .b{font-size:17px}
     #smOv .sm-draw{width:330px;padding:22px 18px 26px}
   }`;
   const st=document.createElement('style');st.id='sm-style';st.textContent=css;document.head.appendChild(st);
@@ -82,7 +83,7 @@ let ov;
 function build(){
   injectCSS();
   if(!document.getElementById('smFab')){
-    const fab=document.createElement('button');fab.id='smFab';fab.title='Menu komnat';
+    const fab=document.createElement('button');fab.id='smFab';fab.title='Menu komnat';fab.setAttribute('aria-label','Menu');
     fab.innerHTML='<span class="b">☰</span> MENU';fab.addEventListener('click',open);document.body.appendChild(fab);
   }
   if(!ov){

@@ -44,7 +44,7 @@ const D={
 "dwunastościan · nawigator":"dodecahedron · navigator","Wejdź przez bryłę Φ":"Enter through the solid Φ",
 "Dwanaście komnat, jedna bryła":"Twelve chambers, one solid",
 "Każdy z 12 pięciokątów niesie złoty podział. Obróć kosmos i wybierz drogę.":"Each of the 12 pentagons carries the golden section. Turn the cosmos and choose your path.",
-"Najedź na ścianę":"Hover a face","Atlas (lista) →":"Atlas (list) →",
+"Najedź na ścianę":"Hover a face","Twoje złoto · kliknij po Skarbiec":"Your gold · click for the Treasury","Ułamek łańcuchowy, optymalne upakowanie, quasikryształy Penrose'a i Shechtmana.":"Continued fractions, optimal packing, the quasicrystals of Penrose and Shechtman.","Przeciągnij linijkę w górę i w dół po sylwetce.":"Drag the ruler up and down over the figure.","φ = [1; 1, 1, 1, …]  ·  zbieżne =":"φ = [1; 1, 1, 1, …]  ·  convergent =","·  błąd · q² →":"·  error · q² →","Dotknij ściany":"Tap a face","Dotknij ściany — wejdź":"Tap a face to enter","Atlas (lista) →":"Atlas (list) →",
 "Dwunastościan to nawigator portalu — 12 ścian odpowiada 12 komnatom traktatu Ghyki.":"The dodecahedron is the portal's navigator — 12 faces map to 12 chambers of Ghyka's treatise.",
 "Przeciągnij — obróć":"Drag to rotate","Kliknij ścianę — wejdź":"Click a face to enter",
 "składam dwunastościan":"assembling the dodecahedron","GRYWALNE →":"PLAYABLE →","wkrótce…":"soon…",
@@ -80,7 +80,7 @@ const D={
 "Arytmetyka · Pitagoras":"Arithmetic · Pythagoras",
 "1 + 2 + 3 + 4 = 10 — liczba, która stała się słyszalna":"1 + 2 + 3 + 4 = 10 — the number that became audible",
 "sfer":"spheres","rzędy":"rows","konsonanse":"consonances",
-"„Na tego, który przekazał naszemu pokoleniu tetraktys — źródło i korzeń wiecznie żywej natury.\"":"„Upon him who handed down to our generation the tetractys — source and root of ever-living nature.”",
+"„Na tego, który przekazał naszemu pokoleniu tetraktys — źródło i korzeń wiecznie żywej natury.\"":"“Upon him who handed down to our generation the tetractys — source and root of ever-living nature.”",
 "Przysięga pitagorejska (Złote wersety)":"The Pythagorean Oath (Golden Verses)",
 // panel note (fragments split by <b>)
 "Pierwsze cztery liczby zawierają w sobie całą":"The first four numbers contain the whole",
@@ -91,7 +91,7 @@ const D={
 "teraz brzmi":"now sounding","kliknij sferę lub rząd":"click a sphere or a row",
 // romance note
 "φ — sprawdzian romansu.":"φ — the romance check.","Złoty podział (≈ 1,618)":"The golden section (≈ 1.618)",
-"nie jest":"is not","interwałem muzycznym. Posłuchaj „φ : 1\": dwa tony w proporcji φ":"a musical interval. Listen to „φ : 1”: two tones in the ratio φ",
+"nie jest":"is not","interwałem muzycznym. Posłuchaj „φ : 1\": dwa tony w proporcji φ":"a musical interval. Listen to “φ : 1”: two tones in the ratio φ",
 "dudnią i brzmią obco":"beat and sound alien",
 "— bo to liczba niewymierna, nie da się jej sprowadzić do prostego stosunku. Harmonia mieszka w małych liczbach całkowitych, nie w φ.":"— because it is irrational, it cannot be reduced to a simple ratio. Harmony lives in small whole numbers, not in φ.",
 "∴ — Rygor":"∴ — Rigor",
@@ -107,7 +107,7 @@ const D={
 "Złoty prostokąt":"The golden rectangle",
 "Odetnij od złotego prostokąta kwadrat o krótszym boku — zostaje znowu złoty prostokąt, mniejszy o 1/φ i obrócony o 90°. Powtarzaj: z naroży kwadratów wyłania się złota spirala.":"Cut a square on the shorter side off the golden rectangle — what remains is again a golden rectangle, smaller by 1/φ and turned 90°. Repeat: from the corners of the squares a golden spiral emerges.",
 "każde cięcie zostawia":"every cut leaves","ten sam kształt":"the same shape","· ćwiartki kół = złota spirala":"· quarter-circles = golden spiral",
-"Klikaj „Odetnij kwadrat\" i patrz, jak rośnie spirala.":"Click „Cut a square” and watch the spiral grow.",
+"Klikaj „Odetnij kwadrat\" i patrz, jak rośnie spirala.":"Click “Cut a square” and watch the spiral grow.",
 "Fibonacci":"Fibonacci",
 "Zacznij od 1, 1 i dodawaj dwa ostatnie: 1, 2, 3, 5, 8, 13… Iloraz kolejnych wyrazów drga coraz bliżej φ. Natura liczy w Fibonaccim — a Fibonacci dąży do złotej liczby.":"Start from 1, 1 and add the last two: 1, 2, 3, 5, 8, 13… The ratio of successive terms quivers ever closer to φ. Nature counts in Fibonacci — and Fibonacci tends toward the golden number.",
 "Dodawaj kolejne wyrazy i patrz na iloraz.":"Add successive terms and watch the ratio.",
@@ -131,7 +131,7 @@ const D={
 "Połącz przekątnymi wszystkie wierzchołki pięciokąta — powstaje pentagram. Każde przecięcie tnie odcinek w złotej proporcji.":"Join every vertex of the pentagon with diagonals — a pentagram appears. Each intersection cuts a segment in the golden ratio.",
 "przekątna ÷ bok =":"diagonal ÷ side =","·  wewnętrzny pięciokąt =":" ·  inner pentagon =","zewnętrznego":"of the outer one",
 "Nieskończone zejście":"Infinite descent",
-"Wewnętrzny pięciokąt to ten sam pięciokąt — mniejszy o 1/φ² i obrócony o 36°. Operację można powtarzać bez końca. Dlatego Ghyka zwał pięciokąt „figurą życia\": sam się reprodukuje.":"The inner pentagon is the same pentagon — smaller by 1/φ² and turned 36°. The operation can be repeated without end. That is why Ghyka called the pentagon the „figure of life”: it reproduces itself.",
+"Wewnętrzny pięciokąt to ten sam pięciokąt — mniejszy o 1/φ² i obrócony o 36°. Operację można powtarzać bez końca. Dlatego Ghyka zwał pięciokąt „figurą życia\": sam się reprodukuje.":"The inner pentagon is the same pentagon — smaller by 1/φ² and turned 36°. The operation can be repeated without end. That is why Ghyka called the pentagon the “figure of life”: it reproduces itself.",
 "każdy poziom =":"each level =","poprzedniego, obrót":"of the previous, a turn of","— nieskończoność w skończonym kształcie":"— infinity in a finite shape",
 "Pięć kontra sześć":"Five versus six",
 "Dlaczego pięciokąt jest wyjątkowy? Trzy sześciokąty wokół punktu domykają się idealnie (kryształ). Trzy pięciokąty zostawiają lukę 36° — φ jest niewymierne, więc nie ma okresowego kafelkowania.":"Why is the pentagon special? Three hexagons around a point close up perfectly (a crystal). Three pentagons leave a 36° gap — φ is irrational, so there is no periodic tiling.",
@@ -143,7 +143,7 @@ const D={
 // HINTS
 "Przeciągnij, by obrócić":"Drag to rotate","idzie samo — zwolnij lub zatrzymaj":"it runs on its own — slow it or stop it",
 "3 sześciokąty vs 3 pięciokąty":"3 hexagons vs 3 pentagons",
-"przesuń „fale\" — 6-krotna to kryształ, 10-krotna to quasikryształ":"move the „waves” — 6-fold is a crystal, 10-fold is a quasicrystal",
+"przesuń „fale\" — 6-krotna to kryształ, 10-krotna to quasikryształ":"move the “waves” — 6-fold is a crystal, 10-fold is a quasicrystal",
 // canvas text
 "przekątna ÷ bok = φ":"diagonal ÷ side = φ","wewnętrzny pięciokąt = 1/φ² ≈ 0,382":"inner pentagon = 1/φ² ≈ 0.382",
 "PIĘCIOKĄT · 3 × 108° = 324°":"PENTAGON · 3 × 108° = 324°","luka 36° — nie kafelkuje":"36° gap — does not tile",
@@ -162,11 +162,11 @@ const D={
 "Sześcian":"Cube","Ziemia":"Earth","sześć kwadratów — najtrwalszy fundament":"six squares — the most enduring foundation",
 "Ziemi dajmy sześcian, bo ziemia jest z rodzajów najtrudniej ruchoma.":"To earth let us give the cube, for earth is the least mobile of the kinds.",
 "Platon, Timajos (55d–56a)":"Plato, Timaeus (55d–56a)",
-"Figura materii nieożywionej.":"The figure of inanimate matter.","U Ghyki sześcian i sześciokąt to świat krystaliczny — porządek bez wzrostu. Przeciwieństwo pięciokąta „figury życia\".":"For Ghyka the cube and the hexagon are the crystalline world — order without growth. The opposite of the pentagon, the „figure of life”.",
+"Figura materii nieożywionej.":"The figure of inanimate matter.","U Ghyki sześcian i sześciokąt to świat krystaliczny — porządek bez wzrostu. Przeciwieństwo pięciokąta „figury życia\".":"For Ghyka the cube and the hexagon are the crystalline world — order without growth. The opposite of the pentagon, the “figure of life”.",
 "Ośmiościan":"Octahedron","Powietrze":"Air","osiem trójkątów — dualny do sześcianu":"eight triangles — dual to the cube",
 "Powietrzu — ośmiościan, pośredni między ogniem a wodą.":"To air — the octahedron, midway between fire and water.",
 "Platon, Timajos":"Plato, Timaeus",
-"Dualny do sześcianu:":"Dual to the cube:","środki ścian jednego są wierzchołkami drugiego. Wciąż świat „materialny\", bez Φ.":"the face centres of one are the vertices of the other. Still the „material” world, without Φ.",
+"Dualny do sześcianu:":"Dual to the cube:","środki ścian jednego są wierzchołkami drugiego. Wciąż świat „materialny\", bez Φ.":"the face centres of one are the vertices of the other. Still the “material” world, without Φ.",
 "Kosmos · Eter":"Cosmos · Aether","dwanaście pięciokątów — w każdym mieszka Φ":"twelve pentagons — Φ dwells in each",
 "Pozostał jeszcze jeden, piąty układ — tego bóg użył dla wszechświata, kreśląc na nim obrazy.":"One arrangement still remained, the fifth — this the god used for the universe, tracing figures upon it.",
 "Platon, Timajos (55c)":"Plato, Timaeus (55c)",
@@ -174,7 +174,7 @@ const D={
 "Dwudziestościan":"Icosahedron","Woda":"Water","dwadzieścia trójkątów — wierzchołki to czyste φ":"twenty triangles — the vertices are pure φ",
 "Dwa skarby geometrii: twierdzenie Pitagorasa i podział odcinka w proporcji skrajnej i średniej.":"Two treasures of geometry: the theorem of Pythagoras and the division of a line in extreme and mean ratio.",
 "Johannes Kepler (1596)":"Johannes Kepler (1596)",
-"Dowód Φ w 3D.":"Proof of Φ in 3D.","12 wierzchołków to dokładnie naroża":"The 12 vertices are exactly the corners of","trzech prostopadłych złotych prostokątów":"three mutually perpendicular golden rectangles","1×φ: współrzędne (0, ±1, ±φ) i cykliczne. Włącz „3 złote prostokąty\", by je zobaczyć.":"1×φ: coordinates (0, ±1, ±φ) and cyclic. Switch on „3 golden rectangles” to see them.",
+"Dowód Φ w 3D.":"Proof of Φ in 3D.","12 wierzchołków to dokładnie naroża":"The 12 vertices are exactly the corners of","trzech prostopadłych złotych prostokątów":"three mutually perpendicular golden rectangles","1×φ: współrzędne (0, ±1, ±φ) i cykliczne. Włącz „3 złote prostokąty\", by je zobaczyć.":"1×φ: coordinates (0, ±1, ±φ) and cyclic. Switch on “3 golden rectangles” to see them.",
 // panel nums + chip
 "wierzch.":"vert.","kraw.":"edges","ścian":"faces",
 "Φ — Rygor":"Φ — Rigor","Bez Φ — materia":"No Φ — matter",
@@ -182,7 +182,7 @@ const D={
 "Dwunastościan — ile ma ścian?":"The dodecahedron — how many faces?",
 "Dwanaście pięciokątów — i dlatego 12 ścian = 12 komnat portalu.":"Twelve pentagons — and that is why 12 faces = 12 chambers of the portal.",
 "Którą bryłę Platon przypisał OGNIOWI?":"Which solid did Plato assign to FIRE?",
-"Najostrzejsza, najbardziej „tnąca\" — stąd ogień (Timajos).":"The sharpest, most „cutting” — hence fire (Timaeus).",
+"Najostrzejsza, najbardziej „tnąca\" — stąd ogień (Timajos).":"The sharpest, most “cutting” — hence fire (Timaeus).",
 "Wzór Eulera dla bryły platońskiej: W − K + Ś = ?":"Euler's formula for a Platonic solid: V − E + F = ?",
 "Zawsze 2. Sześcian: 8 − 12 + 6 = 2.":"Always 2. Cube: 8 − 12 + 6 = 2.",
 "Ile prostopadłych złotych prostokątów kryje dwudziestościan?":"How many perpendicular golden rectangles does the icosahedron hide?",
@@ -215,11 +215,11 @@ const D={
 "Filolaos i Archytas":"Philolaus and Archytas","Tarent":"Tarentum",
 "Pitagorejczycy ocaleni po spaleniu szkoły w Metaponcie. Archytas — przyjaciel Platona, żywy most do Akademii.":"Pythagoreans saved after the school at Metapontum was burned. Archytas — friend of Plato, a living bridge to the Academy.",
 "Platon":"Plato","Akademia, Ateny":"Academy, Athens",
-"„Niech nie wchodzi, kto nie zna geometrii.\" Timajos: pięć brył = żywioły, dwunastościan = kosmos.":"„Let none enter who knows no geometry.” Timaeus: five solids = the elements, the dodecahedron = the cosmos.",
+"„Niech nie wchodzi, kto nie zna geometrii.\" Timajos: pięć brył = żywioły, dwunastościan = kosmos.":"“Let none enter who knows no geometry.” Timaeus: five solids = the elements, the dodecahedron = the cosmos.",
 "Euklides":"Euclid","Aleksandria":"Alexandria",
-"Elementy — pierwsza ścisła definicja „podziału w skrajnej i średniej proporcji\", czyli złotego cięcia.":"The Elements — the first rigorous definition of „division in extreme and mean ratio”, that is, the golden cut.",
+"Elementy — pierwsza ścisła definicja „podziału w skrajnej i średniej proporcji\", czyli złotego cięcia.":"The Elements — the first rigorous definition of “division in extreme and mean ratio”, that is, the golden cut.",
 "Witruwiusz":"Vitruvius","Rzym":"Rome",
-"De architectura: proporcje ciała jako moduł kosmiczny — źródło późniejszego „człowieka witruwiańskiego\".":"De architectura: the proportions of the body as a cosmic module — the source of the later „Vitruvian man”.",
+"De architectura: proporcje ciała jako moduł kosmiczny — źródło późniejszego „człowieka witruwiańskiego\".":"De architectura: the proportions of the body as a cosmic module — the source of the later “Vitruvian man”.",
 "Nikomachos":"Nicomachus","Geraza":"Gerasa",
 "Wstęp do arytmetyki: neopitagorejska teologia liczb — tetraktys, dekada, harmonia.":"Introduction to Arithmetic: a Neopythagorean theology of number — the tetractys, the decad, harmony.",
 "Collegia fabrorum":"Collegia fabrorum","Cesarstwo rzymskie":"The Roman Empire",
@@ -227,11 +227,11 @@ const D={
 "Boecjusz":"Boethius",
 "Przekazuje quadrivium (arytmetyka, geometria, muzyka, astronomia) całemu łacińskiemu średniowieczu.":"Transmits the quadrivium (arithmetic, geometry, music, astronomy) to the whole Latin Middle Ages.",
 "Loże katedralne":"Cathedral lodges","Chartres · Reims":"Chartres · Reims",
-"„Światło pod korcem\": Bauhütte i strzechy. Pentagram na rozetach gotyckich, gmerki kamieniarzy (Rziha).":"„The light under the bushel”: the Bauhütte and the masons' guilds. The pentagram in Gothic rose windows, stonemasons' marks (Rziha).",
+"„Światło pod korcem\": Bauhütte i strzechy. Pentagram na rozetach gotyckich, gmerki kamieniarzy (Rziha).":"“The light under the bushel”: the Bauhütte and the masons' guilds. The pentagram in Gothic rose windows, stonemasons' marks (Rziha).",
 "Pacioli i Leonardo":"Pacioli and Leonardo","Mediolan":"Milan",
-"De divina proportione, ilustrowane przez Leonarda — złota proporcja ochrzczona jako „boska\".":"De divina proportione, illustrated by Leonardo — the golden proportion christened „divine”.",
+"De divina proportione, ilustrowane przez Leonarda — złota proporcja ochrzczona jako „boska\".":"De divina proportione, illustrated by Leonardo — the golden proportion christened “divine”.",
 "Praga":"Prague",
-"„Dwa skarby geometrii\": twierdzenie Pitagorasa i złoty podział. Bryły platońskie w modelu kosmosu.":"„Two treasures of geometry”: the theorem of Pythagoras and the golden section. The Platonic solids in a model of the cosmos.",
+"„Dwa skarby geometrii\": twierdzenie Pitagorasa i złoty podział. Bryły platońskie w modelu kosmosu.":"“Two treasures of geometry”: the theorem of Pythagoras and the golden section. The Platonic solids in a model of the cosmos.",
 "Różokrzyżowcy":"The Rosicrucians","Europa":"Europe",
 "Manifesty różokrzyżowe — ezoteryczna synteza geometrii, alchemii i kabały liczb.":"The Rosicrucian manifestos — an esoteric synthesis of geometry, alchemy and the cabbala of number.",
 "Wielka Loża":"The Grand Lodge","Londyn":"London",
@@ -309,7 +309,7 @@ const D={
 "Ilorazy kolejnych wyrazów ciągu dążą do φ.":"The ratios of successive terms of the sequence tend to φ.",
 "Liber Abaci (1202)":"Liber Abaci (1202)",
 
-"„boska proporcja\"":"the „divine proportion”",
+"„boska proporcja\"":"the “divine proportion”",
 "De divina proportione.":"De divina proportione.",
 "Luca Pacioli, ilustr. Leonardo da Vinci":"Luca Pacioli, illustrated by Leonardo da Vinci",
 
@@ -350,9 +350,9 @@ const D={
 "φ jest jednym z najgłębszych obiektów matematyki i przyrody — i zarazem liczbą, którą popkultura widzi wszędzie, także tam, gdzie jej nie ma. Ten portal pozwala":"φ is one of the deepest objects in mathematics and nature — and at the same time a number that pop culture sees everywhere, even where it is not. This portal lets you",
 "dotknąć tej prawdziwej":"touch the real one","i daje Ci":"and gives you","radar":"a radar",", który odróżnia odkrycie od złudzenia. Naszym przewodnikiem jest Matila Ghyka — uwodzicielski erudyta, który w 1931 zebrał całą tę tradycję — właśnie dlatego, że ucieleśnia obie strony.":"that tells discovery from illusion. Our guide is Matila Ghyka — a seductive erudite who in 1931 gathered this whole tradition — precisely because he embodies both sides.",
 "Co jest prawdą":"What is true",
-"Teoria liczb (φ jako „najbardziej niewymierna” — tw. Hurwitza), filotaksja (złoty kąt jako fizyczne":"Number theory (φ as the „most irrational” — Hurwitz's theorem), phyllotaxis (the golden angle as the physical","— Douady & Couder, 1992), quasikryształy (Penrose → Shechtman, Nobel 2011), samopodobny wzrost gnomoniczny i spirala logarytmiczna. To matematyka, nie metafora — i to jej dotkniesz w komnatach.":"— Douady & Couder, 1992), quasicrystals (Penrose → Shechtman, Nobel 2011), self-similar gnomonic growth and the logarithmic spiral. This is mathematics, not metaphor — and it is this you will touch in the chambers.",
+"Teoria liczb (φ jako „najbardziej niewymierna” — tw. Hurwitza), filotaksja (złoty kąt jako fizyczne":"Number theory (φ as the “most irrational” — Hurwitz's theorem), phyllotaxis (the golden angle as the physical","— Douady & Couder, 1992), quasikryształy (Penrose → Shechtman, Nobel 2011), samopodobny wzrost gnomoniczny i spirala logarytmiczna. To matematyka, nie metafora — i to jej dotkniesz w komnatach.":"— Douady & Couder, 1992), quasicrystals (Penrose → Shechtman, Nobel 2011), self-similar gnomonic growth and the logarithmic spiral. This is mathematics, not metaphor — and it is this you will touch in the chambers.",
 "Co jest mitem":"What is a myth",
-"Partenon „zaprojektowany na φ”, muszla łodzika jako „złota spirala” (naprawdę ≈ 1,33), Mona Lisa, karta kredytowa, kanon ciała Zeisinga. Pomiary dobierane tak długo, aż wyjdzie 1,618 (Markowsky, Neveux, Livio). Komnata":"The Parthenon „designed to φ”, the nautilus shell as a „golden spiral” (really ≈ 1.33), the Mona Lisa, the credit card, Zeising's canon of the body. Measurements picked until 1.618 comes out (Markowsky, Neveux, Livio). The chamber","uczy ten odruch":"teaches this reflex","rozpoznawać":"to recognize","— to umiejętność, nie oskarżenie.":"— it is a skill, not an accusation.",
+"Partenon „zaprojektowany na φ”, muszla łodzika jako „złota spirala” (naprawdę ≈ 1,33), Mona Lisa, karta kredytowa, kanon ciała Zeisinga. Pomiary dobierane tak długo, aż wyjdzie 1,618 (Markowsky, Neveux, Livio). Komnata":"The Parthenon “designed to φ”, the nautilus shell as a “golden spiral” (really ≈ 1.33), the Mona Lisa, the credit card, Zeising's canon of the body. Measurements picked until 1.618 comes out (Markowsky, Neveux, Livio). The chamber","uczy ten odruch":"teaches this reflex","rozpoznawać":"to recognize","— to umiejętność, nie oskarżenie.":"— it is a skill, not an accusation.",
 // atlas band
 "Architektura · 12 komnat":"Architecture · 12 chambers","Atlas Złotej Liczby":"Atlas of the Golden Number",
 "Cały korpus Ghyki, rozpisany na dwanaście interaktywnych komnat. Każda kończy się":"The whole corpus of Ghyka, set out as twelve interactive chambers. Each ends with a","werdyktem":"verdict","— rygor, mieszany czy romantyzm. Kliknij kartę:":"— rigor, mixed or romanticism. Click a card:","siedem komnat":"seven chambers","jest już grywalnych, reszta czeka jako plan.":"are already playable, the rest wait as a plan.",
@@ -365,10 +365,10 @@ const D={
 "Obracaj każdy kwiatek o…":"Turn each floret by…",
 "Pokaż spirale (parastychy)":"Show spirals (parastichies)","Wzrost od środka":"Growth from the centre",
 "Dlaczego akurat 137,507°?":"Why exactly 137.507°?",
-"Bo to":"Because it is","360° ÷ φ²":"360° ÷ φ²",". Złoty kąt dzieli pełny obrót w złotej proporcji. A że φ jest „najbardziej niewymierną” z liczb — jej rozwinięcie w ułamek łańcuchowy to same jedynki —":". The golden angle divides the full turn in the golden ratio. And since φ is the „most irrational” of numbers — its continued-fraction expansion is all ones —","żaden kwiatek nigdy nie trafi dokładnie na ślad poprzedniego":"no floret ever lands exactly on the track of the previous one",". Każdy inny kąt prędzej czy później się „zapętla” w szprychy i zostawia puste luki.":". Every other angle sooner or later „loops” into spokes and leaves empty gaps.",
+"Bo to":"Because it is","360° ÷ φ²":"360° ÷ φ²",". Złoty kąt dzieli pełny obrót w złotej proporcji. A że φ jest „najbardziej niewymierną” z liczb — jej rozwinięcie w ułamek łańcuchowy to same jedynki —":". The golden angle divides the full turn in the golden ratio. And since φ is the “most irrational” of numbers — its continued-fraction expansion is all ones —","żaden kwiatek nigdy nie trafi dokładnie na ślad poprzedniego":"no floret ever lands exactly on the track of the previous one",". Każdy inny kąt prędzej czy później się „zapętla” w szprychy i zostawia puste luki.":". Every other angle sooner or later “loops” into spokes and leaves empty gaps.",
 "Spirale, które widzisz (":"The spirals you see (","parastychy":"parastichies","), liczą się zawsze do":"), always count up to","kolejnych liczb Fibonacciego":"successive Fibonacci numbers","— 21, 34, 55… To nie ozdoba: to mianowniki najlepszych wymiernych przybliżeń złotego kąta.":"— 21, 34, 55… This is no ornament: they are the denominators of the best rational approximations of the golden angle.",
 "Mit vs matematyka":"Myth vs mathematics",
-"Muszla łodzika — ikona „złotej spirali” —":"The nautilus shell — icon of the „golden spiral” —","nie rośnie według φ":"does not grow according to φ",": jej spirala logarytmiczna ma współczynnik ≈ 1,33, nie 1,618. Ale złoty kąt w roślinach to twarda fizyka: Douady i Couder (1992) odtworzyli go z samego":": its logarithmic spiral has a coefficient of ≈ 1.33, not 1.618. But the golden angle in plants is hard physics: Douady and Couder (1992) reproduced it from the sheer","minimum energii":"minimum of energy","w eksperymencie z kroplami cieczy na talerzu. Ghyka przeczuł rzecz prawdziwą — choć podpierał się błędnym przykładem.":"in an experiment with drops of liquid on a plate. Ghyka sensed something true — though he leaned on a faulty example.",
+"Muszla łodzika — ikona „złotej spirali” —":"The nautilus shell — icon of the “golden spiral” —","nie rośnie według φ":"does not grow according to φ",": jej spirala logarytmiczna ma współczynnik ≈ 1,33, nie 1,618. Ale złoty kąt w roślinach to twarda fizyka: Douady i Couder (1992) odtworzyli go z samego":": its logarithmic spiral has a coefficient of ≈ 1.33, not 1.618. But the golden angle in plants is hard physics: Douady and Couder (1992) reproduced it from the sheer","minimum energii":"minimum of energy","w eksperymencie z kroplami cieczy na talerzu. Ghyka przeczuł rzecz prawdziwą — choć podpierał się błędnym przykładem.":"in an experiment with drops of liquid on a plate. Ghyka sensed something true — though he leaned on a faulty example.",
 // proba band
 "Komnata IX · sedno podniesienia na wyższy poziom":"Chamber IX · the heart of raising it to a higher level",
 "Próba —":"The Trial —","rachunek sumienia":"an examination of conscience",
@@ -378,7 +378,7 @@ const D={
 "Portal edukacyjny budujący intuicję wobec φ i geometrii proporcji. Rygor oddzielony od romantyzmu — bo dopiero wtedy Złota Liczba robi się naprawdę ciekawa.":"An educational portal building intuition about φ and the geometry of proportion. Rigor separated from romanticism — because only then does the Golden Number become truly interesting.",
 "Źródła Ghyki":"Ghyka's sources","Aparat krytyczny":"Critical apparatus",
 "Shechtman i in., quasikryształy (Nobel 2011)":"Shechtman et al., quasicrystals (Nobel 2011)",
-"Prototyp flagowy · komnata „Ogród” w pełni grywalna · pozostałe 8 jako plan":"Flagship prototype · the „Garden” chamber fully playable · the other 8 as a plan",
+"Prototyp flagowy · komnata „Ogród” w pełni grywalna · pozostałe 8 jako plan":"Flagship prototype · the “Garden” chamber fully playable · the other 8 as a plan",
 // modal labels
 "Idea":"Idea","Co robisz w tej komnacie":"What you do in this chamber","Matematyka pod spodem":"The mathematics beneath",
 // CHAMBERS — tags ("Rytmy mowy" & "Kamień probierczy · gra" already in chrome dictionary above)
@@ -387,13 +387,13 @@ const D={
 "Tetraktys 1+2+3+4=10 i harmonia liczb. Liczba, którą da się usłyszeć.":"The tetractys 1+2+3+4=10 and the harmony of number. A number you can hear.",
 "Boska proporcja: φ, złoty prostokąt, liczba, która zawiera samą siebie.":"The divine proportion: φ, the golden rectangle, the number that contains itself.",
 "Pentagram jako maszyna φ — każde przecięcie tnie w złotej proporcji. Aż po quasikryształy.":"The pentagram as a φ machine — every intersection cuts in the golden ratio. All the way to quasicrystals.",
-"„Dwa skarby geometrii” Keplera. Pięć brył platońskich; trzy złote prostokąty w dwudziestościanie.":"Kepler's „two treasures of geometry”. The five Platonic solids; three golden rectangles in the icosahedron.",
+"„Dwa skarby geometrii” Keplera. Pięć brył platońskich; trzy złote prostokąty w dwudziestościanie.":"Kepler's “two treasures of geometry”. The five Platonic solids; three golden rectangles in the icosahedron.",
 "Człowiek Witruwiański, kanon Zeisinga, Modulor. Tu Ghyka najczęściej się myli.":"Vitruvian Man, Zeising's canon, the Modulor. Here Ghyka most often errs.",
 "Partenon, Notre-Dame, prostokąty dynamiczne Hambidge'a (√2…√5, φ).":"The Parthenon, Notre-Dame, Hambidge's dynamic rectangles (√2…√5, φ).",
 "Złota proporcja w malarstwie i rzeźbie: Botticelli, Leonardo, Dürer.":"The golden proportion in painting and sculpture: Botticelli, Leonardo, Dürer.",
 "Rytm i metrum jako liczba. Notacja Serviena; metafora jako analogía A:B::C:D.":"Rhythm and metre as number. Servien's notation; metaphor as analogía A:B::C:D.",
 "Złoty kąt 137,5°. Dlaczego słonecznik i szyszka liczą spiralami Fibonacciego.":"The golden angle 137.5°. Why the sunflower and the pine cone count in Fibonacci spirals.",
-"„Światło pod korcem”: Pitagoras, loże katedralne, masoneria. 2500 lat przekazu.":"„The light under the bushel”: Pythagoras, the cathedral lodges, Freemasonry. 2500 years of transmission.",
+"„Światło pod korcem”: Pitagoras, loże katedralne, masoneria. 2500 lat przekazu.":"“The light under the bushel”: Pythagoras, the cathedral lodges, Freemasonry. 2500 years of transmission.",
 "Cantor, Einstein, Schrödinger; materia jako liczba. Bergsonowskie trwanie.":"Cantor, Einstein, Schrödinger; matter as number. Bergsonian duration.",
 "Zmierz sam słynne mity — nautilus, Partenon, Mona Lisa — i odróżnij φ od pobożnych życzeń.":"Measure the famous myths yourself — the nautilus, the Parthenon, the Mona Lisa — and tell φ from wishful thinking.",
 // CHAMBERS — idea
@@ -403,7 +403,7 @@ const D={
 "Dwunasto- i dwudziestościan są zbudowane z φ. Trzy złote prostokąty wpięte prostopadle dają 12 wierzchołków ikosaedru.":"The dodecahedron and icosahedron are built from φ. Three golden rectangles set perpendicular give the 12 vertices of the icosahedron.",
 "Marzenie o jednej proporcji rządzącej ciałem jest stare i piękne — i właśnie dlatego niebezpieczne. Łatwo zobaczyć φ tam, gdzie go nie ma.":"The dream of a single proportion governing the body is old and beautiful — and for that very reason dangerous. It is easy to see φ where it is not.",
 "Czy Grecy projektowali wedle φ? Pomiary bywają dobierane tak długo, aż liczba się zgodzi.":"Did the Greeks design according to φ? Measurements are sometimes picked until the number agrees.",
-"Eurytmia — „dobry rytm” — to marzenie o φ jako tajnym kluczu kompozycji. Częściej to my dorysowujemy φ niż artysta.":"Eurythmy — „good rhythm” — is the dream of φ as the secret key of composition. More often it is we who draw φ in, not the artist.",
+"Eurytmia — „dobry rytm” — to marzenie o φ jako tajnym kluczu kompozycji. Częściej to my dorysowujemy φ niż artysta.":"Eurythmy — “good rhythm” — is the dream of φ as the secret key of composition. More often it is we who draw φ in, not the artist.",
 "Ghyka chce pokazać, że ten sam Logos działa w geometrii świątyni i w wierszu. Most między liczbą a językiem.":"Ghyka wants to show that the same Logos works in the geometry of the temple and in the poem. A bridge between number and language.",
 "Złoty kąt to jedyny sposób rozłożenia nasion bez zasłaniania i bez luk. Natura znalazła to, minimalizując energię.":"The golden angle is the only way to arrange seeds without shading and without gaps. Nature found it by minimizing energy.",
 "Pitagorejska wiedza o proporcji nie zniknęła z katastrofą bractwa — przepływała przez Akademię, Aleksandrię, strzechy katedralne, aż po fizykę quasikryształów.":"Pythagorean knowledge of proportion did not vanish with the brotherhood's catastrophe — it flowed through the Academy, Alexandria, the cathedral guilds, all the way to the physics of quasicrystals.",
@@ -412,15 +412,15 @@ const D={
 // CHAMBERS — doo (what you do)
 "Grywalne: klikasz świecące kule tetraktysu i słyszysz pitagorejskie interwały — oktawę 2:1, kwintę 3:2, kwartę 4:3. Słyszysz też, że φ brzmi obco.":"Playable: you click the glowing spheres of the tetractys and hear the Pythagorean intervals — the octave 2:1, the fifth 3:2, the fourth 4:3. You also hear that φ sounds alien.",
 "Grywalne: odkrywasz φ suwakiem (x²=x+1), odcinasz kwadraty rodzące spiralę i patrzysz, jak ilorazy Fibonacciego gonią φ.":"Playable: you discover φ with a slider (x²=x+1), cut squares that breed the spiral and watch the Fibonacci ratios chase φ.",
-"Grywalne: pentagram, nieskończone zejście, dowód „pięciokąt nie kafelkuje” i żywy shader quasikryształu (Penrose → Shechtman).":"Playable: the pentagram, the infinite descent, the proof that „the pentagon does not tile” and a live quasicrystal shader (Penrose → Shechtman).",
+"Grywalne: pentagram, nieskończone zejście, dowód „pięciokąt nie kafelkuje” i żywy shader quasikryształu (Penrose → Shechtman).":"Playable: the pentagram, the infinite descent, the proof that “the pentagon does not tile” and a live quasicrystal shader (Penrose → Shechtman).",
 "Grywalne 3D: obracasz pięć brył, odsłaniasz trzy złote prostokąty, sprawdzasz współrzędne (0,±1,±φ); quiz na koniec.":"Playable 3D: you rotate the five solids, reveal the three golden rectangles, check the coordinates (0,±1,±φ); a quiz at the end.",
-"Plan: gra „prawda czy apofenia?” — nakładasz siatki φ na figurę i sam dobierasz punkty; wychodzi φ, √2 albo nic.":"Planned: a game „truth or apophenia?” — you overlay φ grids on a figure and pick the points yourself; out comes φ, √2 or nothing.",
+"Plan: gra „prawda czy apofenia?” — nakładasz siatki φ na figurę i sam dobierasz punkty; wychodzi φ, √2 albo nic.":"Planned: a game “truth or apophenia?” — you overlay φ grids on a figure and pick the points yourself; out comes φ, √2 or nothing.",
 "Plan: nakładasz dynamiczne prostokąty na fasady i sam mierzysz — i widzisz, jak wynik zależy od wyboru krawędzi.":"Planned: you overlay dynamic rectangles on facades and measure yourself — and see how the result depends on the choice of edge.",
-"Plan: nakładasz siatki na „Narodziny Wenus” i studia Dürera, dobierasz punkty i testujesz hipotezę.":"Planned: you overlay grids on „The Birth of Venus” and Dürer's studies, pick points and test the hypothesis.",
+"Plan: nakładasz siatki na „Narodziny Wenus” i studia Dürera, dobierasz punkty i testujesz hipotezę.":"Planned: you overlay grids on “The Birth of Venus” and Dürer's studies, pick points and test the hypothesis.",
 "Plan: wklejasz polski wiersz, system zaznacza rytm prozodyczny i pokazuje proporcje akcentów.":"Planned: you paste in a Polish poem, the system marks the prosodic rhythm and shows the proportions of the stresses.",
 "Grywalne niżej: kręcisz kątem rozbieżności i patrzysz, jak głowa kwiatu przeskakuje między idealnym upakowaniem a szprychami.":"Playable below: you turn the divergence angle and watch the flower head jump between perfect packing and spokes.",
-"Grywalne 3D: konstelacja 17 ogniw na złotej spirali czasu; gra „prześledź przekaz w kolejności” rysuje świetlistą nić.":"Playable 3D: a constellation of 17 links on the golden spiral of time; the game „trace the transmission in order” draws a luminous thread.",
-"Plan: pakiety falowe Schrödingera; krystalografia 5-krotna vs 6-krotna; oś „liczba staje się materią”.":"Planned: Schrödinger wave packets; 5-fold vs 6-fold crystallography; the axis „number becomes matter”.",
+"Grywalne 3D: konstelacja 17 ogniw na złotej spirali czasu; gra „prześledź przekaz w kolejności” rysuje świetlistą nić.":"Playable 3D: a constellation of 17 links on the golden spiral of time; the game “trace the transmission in order” draws a luminous thread.",
+"Plan: pakiety falowe Schrödingera; krystalografia 5-krotna vs 6-krotna; oś „liczba staje się materią”.":"Planned: Schrödinger wave packets; 5-fold vs 6-fold crystallography; the axis “number becomes matter”.",
 "Grywalne: przeciągasz prostokąt pomiarowy, nakładasz złotą spiralę, zgadujesz werdykt i odsłaniasz prawdę z danymi. Nautilus ≈1,33; karta 1,586.":"Playable: you drag a measuring rectangle, overlay the golden spiral, guess the verdict and reveal the truth with data. Nautilus ≈1.33; card 1.586.",
 // CHAMBERS — math
 "Tetraktys=10. Oktawa 1:2, kwinta 2:3, kwarta 3:4. φ nie jest interwałem.":"Tetractys=10. Octave 1:2, fifth 2:3, fourth 3:4. φ is not an interval.",
@@ -436,17 +436,17 @@ const D={
 "Mechanika falowa de Broglie/Schrödinger; czasoprzestrzeń jako struktura geometryczna.":"Wave mechanics of de Broglie/Schrödinger; spacetime as a geometric structure.",
 "Test: rozkład zmierzonych stosunków vs 1,618. Bias potwierdzenia, dobór punktów.":"Test: the distribution of measured ratios vs 1.618. Confirmation bias, point selection.",
 // CHAMBERS — verdict text (vt)
-"Akustyka stosunków jest twarda; „muzyka sfer” to metafora.":"The acoustics of ratios is hard; the „music of the spheres” is a metaphor.",
+"Akustyka stosunków jest twarda; „muzyka sfer” to metafora.":"The acoustics of ratios is hard; the “music of the spheres” is a metaphor.",
 "Czysta geometria — tu Ghyka stoi na granicie.":"Pure geometry — here Ghyka stands on granite.",
 "Mistykę pięciokąta fizyka potwierdziła Noblem 2011.":"The mysticism of the pentagon was confirmed by physics with the 2011 Nobel.",
 "Współrzędne zgadzają się co do cyfry — żelazny rdzeń.":"The coordinates agree to the digit — an iron core.",
 "Serce romantycznej numerologii. Komnata uczy zachwyt sprawdzać.":"The heart of romantic numerology. The chamber teaches you to verify your wonder.",
-"Geometria prostokątów realna; „dynamiczna symetria” jako metoda — naciągana.":"The geometry of the rectangles is real; „dynamic symmetry” as a method is forced.",
+"Geometria prostokątów realna; „dynamiczna symetria” jako metoda — naciągana.":"The geometry of the rectangles is real; “dynamic symmetry” as a method is forced.",
 "Piękne, ale w większości dorysowane po fakcie.":"Beautiful, but mostly drawn in after the fact.",
-"Notacja rytmu realna; „ten sam Logos” — piękna spekulacja.":"The notation of rhythm is real; „the same Logos” is a beautiful speculation.",
+"Notacja rytmu realna; „ten sam Logos” — piękna spekulacja.":"The notation of rhythm is real; “the same Logos” is a beautiful speculation.",
 "Twarda nauka — Douady & Couder (1992) wyprowadzili kąt z dynamiki.":"Hard science — Douady & Couder (1992) derived the angle from dynamics.",
 "Twój ezoteryczny rdzeń — historia transmisji, czytana z dystansem.":"Your esoteric core — a history of transmission, read at a distance.",
-"Fizyka twarda; „spełnienie Pitagorasa” — efektowna interpretacja.":"The physics is hard; „the fulfilment of Pythagoras” is a striking interpretation.",
+"Fizyka twarda; „spełnienie Pitagorasa” — efektowna interpretacja.":"The physics is hard; “the fulfilment of Pythagoras” is a striking interpretation.",
 "Paradoksalnie najbardziej pro-Ghykowa komnata: ratuje to, co u niego prawdziwe.":"Paradoxically the most pro-Ghyka chamber: it rescues what is true in him.",
 // chips / verdict labels (atlas cards + modal)
 "Romantyzm":"Romanticism","Mieszany":"Mixed","Krytyka":"Critique","Rygor":"Rigor",
@@ -465,7 +465,7 @@ const D={
 // parthenon reveal
 "Zmierz różne krawędzie — i sam zobacz problem: zależnie od tego, gdzie postawisz linijkę, wychodzi 1,6, 1,7, a nawet 2,0. Nie ma":"Measure different edges — and see the problem for yourself: depending on where you place the ruler, you get 1.6, 1.7, even 2.0. There is",
 "żadnego dokumentu":"no document",
-", że Fidiasz celował w φ; samo słowo „φ\" ukuto 2300 lat później. To klasyczna":", that Phidias aimed at φ; the very word „φ” was coined 2300 years later. This is a classic case of",
+", że Fidiasz celował w φ; samo słowo „φ\" ukuto 2300 lat później. To klasyczna":", that Phidias aimed at φ; the very word “φ” was coined 2300 years later. This is a classic case of",
 "apofenia":"apophenia",
 ": dobierasz punkty, aż liczba się zgodzi (Markowsky 1992).":": you pick the points until the number agrees (Markowsky 1992).",
 // nautilus claim
@@ -475,13 +475,13 @@ const D={
 "≈1,33 na obrót":"≈1.33 per turn",
 ", nie o φ. Nałóż złotą spiralę (φ na ćwierć obrotu = ~6,85 na pełny obrót) —":", not by φ. Overlay the golden spiral (φ per quarter-turn = ~6.85 per full turn) —",
 "rozjeżdża się natychmiast":"it diverges at once",
-". „Logarytmiczna\" pomylono ze „złotą\". Piękna, ale inna liczba.":". „Logarithmic” was confused with „golden”. A beautiful, but different, number.",
+". „Logarytmiczna\" pomylono ze „złotą\". Piękna, ale inna liczba.":". “Logarithmic” was confused with “golden”. A beautiful, but different, number.",
 // monalisa claim
 "„Twarz Mony Lisy zbudowana jest na":"„The face of the Mona Lisa is built on the","złotej proporcji":"golden proportion","— Leonardo zaszył w niej φ.\"":"— Leonardo wove φ into it.”",
 // monalisa reveal
-"Leonardo ilustrował „De divina proportione\" Pacioliego — znał φ. Ale w obrazie":"Leonardo illustrated Pacioli's „De divina proportione” — he knew φ. But in the painting there is",
+"Leonardo ilustrował „De divina proportione\" Pacioliego — znał φ. Ale w obrazie":"Leonardo illustrated Pacioli's “De divina proportione” — he knew φ. But in the painting there is",
 "nie ma jej śladu":"no trace of it",
-": prostokąty „φ\" rysuje się po dowolnie wybranych punktach twarzy. Przesuń pomiar — φ „znajdziesz\" wszędzie i nigdzie. Dowodu brak.":": the „φ” rectangles are drawn over arbitrarily chosen points of the face. Move the measurement — you will „find” φ everywhere and nowhere. There is no proof.",
+": prostokąty „φ\" rysuje się po dowolnie wybranych punktach twarzy. Przesuń pomiar — φ „znajdziesz\" wszędzie i nigdzie. Dowodu brak.":": the “φ” rectangles are drawn over arbitrarily chosen points of the face. Move the measurement — you will “find” φ everywhere and nowhere. There is no proof.",
 // card claim
 "„Karta płatnicza to":"„A payment card is a","— dlatego tak dobrze leży w dłoni.\"":"— that is why it sits so well in the hand.”",
 // card reveal
@@ -509,7 +509,7 @@ const D={
 ". Most między arytmetyką a wzrostem w przyrodzie.":". A bridge between arithmetic and growth in nature.",
 // Pacioli (first fragment "Złota proporcja")
 "Złota proporcja":"The golden proportion",
-"ochrzczona jako „boska\"":"christened „divine”",
+"ochrzczona jako „boska\"":"christened “divine”",
 ". Pacioli pisze traktat, Leonardo rysuje bryły i kanon ciała. Renesansowy moment, w którym φ wchodzi do sztuki.":". Pacioli writes the treatise, Leonardo draws the solids and the canon of the body. The Renaissance moment when φ enters art.",
 // Kepler
 "Stawia złoty podział obok twierdzenia Pitagorasa jako jeden z dwóch":"He sets the golden section beside the theorem of Pythagoras as one of the two","klejnotów geometrii":"jewels of geometry",
@@ -536,14 +536,14 @@ const D={
 "Pępek i złoty podział":"The navel and the golden section","Modulor":"Modulor",
 // MOVES — body lines
 "Przesuwaj poziomą linijkę po sylwetce. Odczyt pokazuje stosunek odcinka górnego do dolnego. Pępek leży około 0,61–0,63 wysokości — blisko φ, ale nie w punkt, i u każdego człowieka inaczej.":"Slide the horizontal ruler over the figure. The readout shows the ratio of the upper segment to the lower. The navel sits at about 0.61–0.63 of the height — close to φ, but not exactly, and different in every person.",
-"Nałóż kwadrat (wzrost ≈ rozpiętość ramion) i koło o środku w pępku. To jest faktyczne twierdzenie Witruwiusza z „O architekturze” — proporcje proste, współmierne, kwadrat 1:1. Nie φ.":"Overlay a square (height ≈ armspan) and a circle centred on the navel. This is the actual claim of Vitruvius in „On Architecture” — simple, commensurable proportions, a 1:1 square. Not φ.",
+"Nałóż kwadrat (wzrost ≈ rozpiętość ramion) i koło o środku w pępku. To jest faktyczne twierdzenie Witruwiusza z „O architekturze” — proporcje proste, współmierne, kwadrat 1:1. Nie φ.":"Overlay a square (height ≈ armspan) and a circle centred on the navel. This is the actual claim of Vitruvius in “On Architecture” — simple, commensurable proportions, a 1:1 square. Not φ.",
 "Le Corbusier (1948) celowo wpisał φ w skalę człowieka: postać 183 cm, pępek w φ, podniesiona ręka na 226 cm. Czerwona i niebieska seria miar wspina się po ciele jak Fibonacci.":"Le Corbusier (1948) deliberately built φ into a human scale: a figure of 183 cm, the navel at φ, the raised hand at 226 cm. The red and blue series of measures climb the body like Fibonacci.",
 // MOVES — fact fragments (split by <b>)
 "Zeising twierdził, że pępek dzieli ciało":"Zeising claimed that the navel divides the body",
 "dokładnie":"exactly",
 "w φ. To dobór pod tezę — realne ciała dają":"at φ. That is cherry-picking to fit the thesis — real bodies give",
 "nigdy":"never",
-"nie wspomniał φ. „Człowiek φ-witruwiański” to":"never mentioned φ. The „φ-Vitruvian man” is a",
+"nie wspomniał φ. „Człowiek φ-witruwiański” to":"never mentioned φ. The “φ-Vitruvian man” is a",
 "współczesna dorobiona":"modern, fabricated",
 "nakładka.":"overlay.",
 "Tu φ jest":"Here φ is",
@@ -559,7 +559,7 @@ const D={
 // panel base
 "Czy Partenon zna φ?":"Does the Parthenon know φ?",
 "werdykt mieszany — wybierz nakładkę u dołu":"a mixed verdict — choose an overlay below",
-"„»Partenon = φ« to mit. Ale Grecy mieli realny, piękny system proporcji.”":"„»Parthenon = φ« is a myth. But the Greeks did have a real, beautiful system of proportion.”",
+"„»Partenon = φ« to mit. Ale Grecy mieli realny, piękny system proporcji.”":"“»Parthenon = φ« is a myth. But the Greeks did have a real, beautiful system of proportion.”",
 "SECTIO AUREA · Komnata VI":"SECTIO AUREA · Chamber VI",
 "Trzy nakładki nałożone na tę samą fasadę. Pierwsza to":"Three overlays laid on the same facade. The first is a",
 "legenda":"legend",
@@ -576,9 +576,9 @@ const D={
 "naciągane":"forced","konstruowalne":"constructible","współmierne":"commensurable","Hambidge":"Hambidge","moduł":"module","pomiar":"measurement",
 // MODES — quotes + sources
 "Nie ma żadnego niezawodnego dowodu, że Partenon zaprojektowano w oparciu o złoty podział.":"There is no reliable evidence that the Parthenon was designed on the golden section.",
-"George Markowsky, „Misconceptions about the Golden Ratio” (1992)":"George Markowsky, „Misconceptions about the Golden Ratio” (1992)",
+"George Markowsky, „Misconceptions about the Golden Ratio” (1992)":"George Markowsky, “Misconceptions about the Golden Ratio” (1992)",
 "Grecka sztuka projektowania operowała stosunkami niewymiernymi, ale konstruowalnymi — prostokątami pierwiastkowymi.":"The Greek art of design worked with irrational but constructible ratios — root rectangles.",
-"Jay Hambidge, „Dynamic Symmetry” (1920)":"Jay Hambidge, „Dynamic Symmetry” (1920)",
+"Jay Hambidge, „Dynamic Symmetry” (1920)":"Jay Hambidge, “Dynamic Symmetry” (1920)",
 "Szerokość do wysokości, długość do szerokości, rozstaw kolumn do ich średnicy — wszędzie powraca stosunek 9 do 4.":"Width to height, length to width, column spacing to their diameter — everywhere the ratio of 9 to 4 returns.",
 "Analiza wymiarów Partenonu (kanon dorycki)":"Analysis of the Parthenon's dimensions (the Doric canon)",
 // MODES — note fragments (split by <b>)
@@ -607,13 +607,13 @@ const D={
 // MOVES — headings
 "Złota spirala na płótnie":"The golden spiral on the canvas","Φ kontra trójpodział":"Φ versus the rule of thirds","Dürer naprawdę":"Dürer for real",
 // MOVES — body lines
-"Przeciągnij i obróć złotą spiralę po schematycznej kompozycji. Zobaczysz, że przy odrobinie swobody potrafi „trafić” w niemal każdy element — bo to TY wybierasz, gdzie ją zaczepić. Niemal każdy obraz da „dopasowanie” do φ.":"Drag and rotate the golden spiral over a schematic composition. You will see that, with a little freedom, it can „hit” almost any element — because YOU choose where to anchor it. Almost any picture will yield a „match” to φ.",
-"Na ten sam obraz nałóż siatkę φ (linie w 0,382 i 0,618) ORAZ siatkę trójpodziału (0,333 i 0,667). Włącz obie naraz — leżą niemal na sobie. Deklarowane „φ w sztuce” zwykle nie da się odróżnić od zwykłej reguły trójpodziału.":"On the same picture overlay the φ grid (lines at 0.382 and 0.618) AND the rule-of-thirds grid (0.333 and 0.667). Turn on both at once — they lie almost on top of each other. Claimed „φ in art” usually cannot be told apart from the plain rule of thirds.",
-"Dürer w „Czterech księgach o proporcjach człowieka” dzielił figurę na MODUŁY głowy (zwykle 8 głów wzrostu) i ich ułamki — 1/2, 1/3, 1/4. Nie używał φ. Prawdziwi mistrzowie mieli SYSTEMY proporcji — tyle że nie złoty podział.":"In his „Four Books on Human Proportion” Dürer divided the figure into head MODULES (usually 8 heads tall) and their fractions — 1/2, 1/3, 1/4. He did not use φ. The true masters had SYSTEMS of proportion — just not the golden section.",
+"Przeciągnij i obróć złotą spiralę po schematycznej kompozycji. Zobaczysz, że przy odrobinie swobody potrafi „trafić” w niemal każdy element — bo to TY wybierasz, gdzie ją zaczepić. Niemal każdy obraz da „dopasowanie” do φ.":"Drag and rotate the golden spiral over a schematic composition. You will see that, with a little freedom, it can “hit” almost any element — because YOU choose where to anchor it. Almost any picture will yield a “match” to φ.",
+"Na ten sam obraz nałóż siatkę φ (linie w 0,382 i 0,618) ORAZ siatkę trójpodziału (0,333 i 0,667). Włącz obie naraz — leżą niemal na sobie. Deklarowane „φ w sztuce” zwykle nie da się odróżnić od zwykłej reguły trójpodziału.":"On the same picture overlay the φ grid (lines at 0.382 and 0.618) AND the rule-of-thirds grid (0.333 and 0.667). Turn on both at once — they lie almost on top of each other. Claimed “φ in art” usually cannot be told apart from the plain rule of thirds.",
+"Dürer w „Czterech księgach o proporcjach człowieka” dzielił figurę na MODUŁY głowy (zwykle 8 głów wzrostu) i ich ułamki — 1/2, 1/3, 1/4. Nie używał φ. Prawdziwi mistrzowie mieli SYSTEMY proporcji — tyle że nie złoty podział.":"In his “Four Books on Human Proportion” Dürer divided the figure into head MODULES (usually 8 heads tall) and their fractions — 1/2, 1/3, 1/4. He did not use φ. The true masters had SYSTEMS of proportion — just not the golden section.",
 // MOVES — fact fragments (split by <b>)
 "wolny wybór zaczepienia ⟹":"free choice of anchor ⟹",
 "prawie każda kompozycja":"almost any composition",
-"„pasuje” do φ · to dobieranie pod tezę":"„fits” φ · this is cherry-picking to fit the thesis",
+"„pasuje” do φ · to dobieranie pod tezę":"“fits” φ · this is cherry-picking to fit the thesis",
 "0,618 vs 0,667 — różnica":"0.618 vs 0.667 — a difference of",
 "· w skali obrazu mieści się w błędzie pomiaru":"· at the scale of a picture it falls within measurement error",
 "system modularny:":"a modular system:",
@@ -625,9 +625,9 @@ const D={
 // chip
 "Romantyzm — siatka po fakcie":"Romanticism — a grid after the fact",
 // hints
-"Przeciągnij spiralę po obrazie, obracaj suwakiem. Patrz, ile cech „dotyka”.":"Drag the spiral over the picture, rotate with the slider. Watch how many features it „touches”.",
+"Przeciągnij spiralę po obrazie, obracaj suwakiem. Patrz, ile cech „dotyka”.":"Drag the spiral over the picture, rotate with the slider. Watch how many features it “touches”.",
 "Włącz obie siatki naraz. Zobacz, jak blisko siebie leżą linie φ i trójpodziału.":"Turn on both grids at once. See how close the φ and rule-of-thirds lines lie.",
-"Zmień liczbę „głów” wzrostu i włącz podziałki. To realny system Dürera.":"Change the number of „heads” of height and turn on the subdivisions. This is Dürer's real system.",
+"Zmień liczbę „głów” wzrostu i włącz podziałki. To realny system Dürera.":"Change the number of “heads” of height and turn on the subdivisions. This is Dürer's real system.",
 
 // === Komnata VIII · Słowo (slowo.html) ===
 "odmierzam czas":"measuring out time",
@@ -645,7 +645,7 @@ const D={
 "Wielu kompozytorów i poetów stawia":"Many composers and poets place the",
 "punkt kulminacyjny":"climactic point",
 "nie pośrodku, lecz później — około":"not in the middle but later — at about",
-"trwania. Szczyt, który nadchodzi „za późno”, buduje większe napięcie. To realny chwyt warsztatowy: ucho słyszy różnicę. Posłuchaj obu wersji tej samej frazy.":"of the duration. A peak that arrives „too late” builds greater tension. This is a real craft device: the ear hears the difference. Listen to both versions of the same phrase.",
+"trwania. Szczyt, który nadchodzi „za późno”, buduje większe napięcie. To realny chwyt warsztatowy: ucho słyszy różnicę. Posłuchaj obu wersji tej samej frazy.":"of the duration. A peak that arrives “too late” builds greater tension. This is a real craft device: the ear hears the difference. Listen to both versions of the same phrase.",
 "Węgierski teoretyk":"The Hungarian theorist",
 "Ernő Lendvai":"Ernő Lendvai",
 "twierdził, że Bartók budował formy na":"claimed that Bartók built his forms on the",
@@ -664,7 +664,7 @@ const D={
 // panel nums labels
 "złoty punkt":"golden point","rytm mowy":"speech rhythm",
 // quote + src
-"„Czas jest tworzywem muzyki i wiersza — a proporcja czasu bywa złota.”":"„Time is the material of music and verse — and the proportion of time is sometimes golden.”",
+"„Czas jest tworzywem muzyki i wiersza — a proporcja czasu bywa złota.”":"“Time is the material of music and verse — and the proportion of time is sometimes golden.”",
 "parafraza prozodii dynamicznej":"a paraphrase of dynamic prosody",
 // nowplaying static
 "wybierz tryb i posłuchaj":"choose a mode and listen",
@@ -672,7 +672,7 @@ const D={
 "MIESZANY":"MIXED",
 "W czasie φ bywa":"In time φ is sometimes",
 "PRAWDZIWE":"REAL",
-"— gdy twórca świadomie je wstawia (Bartók, i to sporne). „Złota” kulminacja działa na ucho. Ale „φ w każdym wierszu” to już numerologia.":"— when the maker consciously puts it in (Bartók, and even that is disputed). A „golden” climax works on the ear. But „φ in every poem” is already numerology.",
+"— gdy twórca świadomie je wstawia (Bartók, i to sporne). „Złota” kulminacja działa na ucho. Ale „φ w każdym wierszu” to już numerologia.":"— when the maker consciously puts it in (Bartók, and even that is disputed). A “golden” climax works on the ear. But “φ in every poem” is already numerology.",
 "◆ — Mieszany werdykt":"◆ — Mixed verdict",
 // showNow dynamic readouts (name + sub)
 "kulminacja w złotym podziale":"climax at the golden section","kulminacja w połowie frazy":"climax at the middle of the phrase","szczyt później — bardziej dramatycznie":"the peak later — more dramatic","szczyt pośrodku — spokojnie":"the peak in the middle — calm",
@@ -700,7 +700,7 @@ const D={
 // MOVES — body lines
 "φ = 1 + 1/(1 + 1/(1 + …)) — same jedynki, w nieskończoność. Ucinając go, dostajesz iloraz kolejnych liczb Fibonacciego: 1/1, 2/1, 3/2, 5/3, 8/5, 13/8 … Ponieważ każdy współczynnik to najmniejsza możliwa jedynka, φ przybliża się ułamkami najtrudniej ze wszystkich liczb.":"φ = 1 + 1/(1 + 1/(1 + …)) — all ones, to infinity. Cut it off and you get the ratio of successive Fibonacci numbers: 1/1, 2/1, 3/2, 5/3, 8/5, 13/8 … Because every coefficient is the smallest possible one, φ is the hardest of all numbers to approximate by fractions.",
 "Skoro φ opiera się przybliżeniu ułamkiem, złoty kąt 137,5° nigdy nie ustawia nasion w równe rzędy — żaden obrót nie domyka się okresowo. Efekt: upakowanie bez luk, fizyczne optimum. To wynik (Douady i Couder, 1992 — minimalizacja energii), nie magia.":"Since φ resists approximation by a fraction, the golden angle 137.5° never sets the seeds in even rows — no rotation ever closes up periodically. The effect: packing without gaps, a physical optimum. This is a result (Douady and Couder, 1992 — energy minimization), not magic.",
-"Te same φ rządzą niperiodycznym kafelkowaniem Penrose’a (dwa romby o stosunku przekątnych φ) i prawdziwymi quasikryształami (Shechtman, Nobel 2011) — uporządkowanie dalekiego zasięgu bez powtarzalności. Schrödinger (1944) przewidział, że życie potrzebuje „kryształu aperiodycznego” — później okazało się nim DNA.":"The same φ governs Penrose's aperiodic tiling (two rhombi whose diagonals are in the ratio φ) and real quasicrystals (Shechtman, Nobel 2011) — long-range order without repetition. Schrödinger (1944) predicted that life needs an „aperiodic crystal” — which later turned out to be DNA.",
+"Te same φ rządzą niperiodycznym kafelkowaniem Penrose’a (dwa romby o stosunku przekątnych φ) i prawdziwymi quasikryształami (Shechtman, Nobel 2011) — uporządkowanie dalekiego zasięgu bez powtarzalności. Schrödinger (1944) przewidział, że życie potrzebuje „kryształu aperiodycznego” — później okazało się nim DNA.":"The same φ governs Penrose's aperiodic tiling (two rhombi whose diagonals are in the ratio φ) and real quasicrystals (Shechtman, Nobel 2011) — long-range order without repetition. Schrödinger (1944) predicted that life needs an “aperiodic crystal” — which later turned out to be DNA.",
 // MOVES — fact fragments (split by <b>)
 "φ = [1; 1, 1, 1, …]  ·  zbieżne =":"φ = [1; 1, 1, 1, …]  ·  convergents =",
 "Fₙ₊₁ / Fₙ":"Fₙ₊₁ / Fₙ",
@@ -739,13 +739,13 @@ const D={
 "Czy ten sam Logos działa w geometrii świątyni i w biegu zdania? W czasie φ bywa prawdziwe — gdy twórca świadomie je wstawia.":"Does the same Logos work in the geometry of the temple and in the run of a sentence? In time φ is sometimes real — when the maker consciously puts it in.",
 "Grywalne (audio): słuchasz kulminacji w ½ i w φ, oglądasz łuk Bartóka (takt 55 z 89 — sporne), wystukujesz rytm mowy i widzisz jego proporcje.":"Playable (audio): you listen to the climax at ½ and at φ, watch Bartók's arc (bar 55 of 89 — disputed), tap out the rhythm of speech and see its proportions.",
 "Pius Servien (1930): formalizacja rytmu. Bartók/Lendvai: φ i Fibonacci w formie (sporne).":"Pius Servien (1930): a formalization of rhythm. Bartók/Lendvai: φ and Fibonacci in form (disputed).",
-"Złota kulminacja działa na ucho; „φ w każdym wierszu” — już numerologia.":"The golden climax works on the ear; „φ in every poem” is already numerology.",
+"Złota kulminacja działa na ucho; „φ w każdym wierszu” — już numerologia.":"The golden climax works on the ear; “φ in every poem” is already numerology.",
 // chamber XI · card / idea / doo / math / vt (all new)
 "Ułamek łańcuchowy, optymalne upakowanie, quasikryształy Penrose’a i Shechtmana.":"The continued fraction, optimal packing, the quasicrystals of Penrose and Shechtman.",
 "Tu φ jest prawdziwe i głębokie — nie przez mistykę, lecz przez matematykę: liczba najtrudniejsza do przybliżenia ułamkiem rządzi upakowaniem liści i aperiodycznym ładem kryształów.":"Here φ is real and deep — not through mysticism, but through mathematics: the number hardest to approximate by a fraction governs the packing of leaves and the aperiodic order of crystals.",
 "Grywalne: budujesz ułamek łańcuchowy φ=[1;1,1,…], kręcisz kątem rozbieżności (równe upakowanie tylko przy 137,5°) i deflujesz parkietaż Penrose’a.":"Playable: you build the continued fraction φ=[1;1,1,…], turn the divergence angle (even packing only at 137.5°) and deflate a Penrose tiling.",
 "Ułamek [1;1,1,…]; tw. Hurwitza; złoty kąt 137,5° (Douady-Couder 1992); parkietaż Penrose’a; quasikryształy (Shechtman, Nobel 2011).":"The fraction [1;1,1,…]; Hurwitz's theorem; the golden angle 137.5° (Douady-Couder 1992); the Penrose tiling; quasicrystals (Shechtman, Nobel 2011).",
-"Twardy rdzeń matematyczny; margines mieszany — „liczba życia” Bergsona to filozofia, nie dowód.":"A hard mathematical core; a mixed margin — Bergson's „number of life” is philosophy, not proof.",
+"Twardy rdzeń matematyczny; margines mieszany — „liczba życia” Bergsona to filozofia, nie dowód.":"A hard mathematical core; a mixed margin — Bergson's “number of life” is philosophy, not proof.",
 };
 /* wzorce z liczbami / interpolacją */
 const RX=[
